@@ -4,7 +4,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:dekatrian/providers/calendar_providers.dart';
-import 'package:dekatrian/presentation/controllers/data_controller.dart';
 import 'package:dekatrian/application/services/lunar_calendar_service.dart';
 import 'package:dekatrian/domain/models/lunar_date.dart';
 

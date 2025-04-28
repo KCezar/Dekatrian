@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'presentation/screens/tela_menu.dart';
 import 'presentation/screens/tela_inicial.dart';
 import 'presentation/screens/tela_dekatrian.dart';
 import 'presentation/screens/tela_desenvolvimento.dart';
