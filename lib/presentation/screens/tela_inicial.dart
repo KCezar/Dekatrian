@@ -20,13 +20,10 @@ class TelaInicial extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final dataState = ref.watch(dataControllerProvider);
     final dataCtrl = ref.read(dataControllerProvider.notifier);
-    String dekatrianTitleDate = "";
-    if(dataState.lunar.monthIndex+1>13){
-      String month = dataState.lunar.monthIndex+1 == 14 ? "Achronian" : "Sinchronian"; 
-      dekatrianTitleDate = "${dataState.lunar.lunarMonthName} ${month} ${dataState.lunar.year}";
-    }else{
-      dekatrianTitleDate = '${dataState.lunar.day} ${dataState.lunar.lunarMonthName} (${dataState.lunar.monthIndex+1}) ${dataState.lunar.year}';
-    }
+    String month = dataState.lunar.monthIndex == 13 ? "Achronian" : "Sinchronian"; 
+    String dekatrianTitleDate = dataState.lunar.monthIndex == 13 ? "${dataState.lunar.lunarMonthName} ${month} ${dataState.lunar.year}" : 
+                          '${dataState.lunar.day} ${dataState.lunar.lunarMonthName} (${dataState.lunar.monthIndex+1}) ${dataState.lunar.year}';
+    
     return PopScope<void>(
       canPop: false,
       onPopInvokedWithResult: (didPop, _) {
