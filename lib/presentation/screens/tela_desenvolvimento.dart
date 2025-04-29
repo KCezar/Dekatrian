@@ -79,11 +79,26 @@ class TelaDesenvolvimento extends ConsumerWidget {
                 ),
 
                 const Text(
-                  "Este programa foi inspirado no app Dekatrian, desenvolvido por Lario Diniz em python " + 
-                  'https://github.com/lariodiniz/Dekatrian' + " excelente aplicação, muito bem escrita.\n\n" + 
-                  "Um belo dia troquei de celular e o mesmo aplicativo não estava mais disponível na loja, então resolvi fazer uma versão em Flutter.\n\n" +
+                  "Este programa foi inspirado no app Dekatrian, desenvolvido em python por Lario Diniz,  " + 
+                  " excelente aplicação, muito bem escrita."),
+               Row(
+                  children: [
+                    const Text('Repositório: '),
+                    GestureDetector(
+                      onTap: () => _launchUrl(
+                          'https://github.com/lariodiniz/Dekatrian'),
+                      child: Text(
+                        'github.com/lariodiniz/Dekatrian',
+                        style: _linkStyle,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 8),
+                const Text(
+                  "Um belo dia troquei de celular e o mesmo aplicativo não estava mais disponível na loja Playstore, então resolvi fazer uma versão em Flutter.\n\n" +
                   "Agradeço ao Lario Diniz pela inspiração e pelo código fonte do Dekatrian, que me ajudou a entender como funciona o calendário Dekatrian.\n\n" +
-                  " Deixarei o projeto na licença MIT também, para quem quiser usar o código fonte do Dekatrian.\n\n"
+                  " Farei o mesmo que Lario e deixarei o projeto na licença MIT, para quem quiser usar o código fonte do Dekatrian para estudar ou criar sua própria versão.\n\n"
                 ),
                 const SizedBox(height: 8),
 
@@ -92,9 +107,9 @@ class TelaDesenvolvimento extends ConsumerWidget {
                     const Text('Repositório: '),
                     GestureDetector(
                       onTap: () => _launchUrl(
-                          'https://github.com/lariodiniz/Dekatrian'),
+                          'https://github.com/KCezar/Dekatrian'),
                       child: Text(
-                        'github.com/lariodiniz/Dekatrian',
+                        'github.com/KCezar/Dekatrian',
                         style: _linkStyle,
                       ),
                     ),
