@@ -16,9 +16,10 @@ class AreaMeses extends ConsumerWidget {
     final highlightColor = DiaCalendario.weekdayColors[(todayLunar.day - 1) % 7];
     final sysMonthIdx    = todayLunar.monthIndex;
     final names          = [...baseNames, 'Achronian', 'Sinchronian'];
+    final currentLunar = ref.watch(dataControllerProvider).lunar;
 
     // calcula se mostra Sinchronian
-    final nextYear     = todayLunar.year - 10000 + 1;
+    final nextYear     = currentLunar.year - 10000 + 1;
     final showSynch    = (nextYear % 400 == 0) ||
                          (nextYear % 100 != 0 && nextYear % 4 == 0);
 
@@ -50,7 +51,7 @@ class AreaMeses extends ConsumerWidget {
                 ? (isCurr ? highlightColor : Colors.grey.shade300)
                 : (i == baseNames.length
                     ? const Color(0xFFFFD700)
-                    : const Color(0xFFBBBBBB));
+                    : const Color.fromARGB(255, 241, 125, 252));
 
             return SizedBox(
               width: cellW,
