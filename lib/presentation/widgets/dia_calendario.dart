@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:dekatrian/providers/calendar_providers.dart';
 import '../../application/services/lunar_calendar_service.dart';
+import 'package:dekatrian/providers/holiday_providers.dart';
 
 /// Um botão que representa UM dia do mês (1..28)
 /// Pinta a coluna conforme o dia da semana, destaca o dia "hoje"
@@ -28,6 +29,14 @@ class DiaCalendario extends ConsumerWidget {
     Color(0xFFDA70D6), // Violeta
   ];
 
+  // Aumenta saturação em 20% para tornar a cor mais "quente"
+  Color _warm(Color c) {
+    final hsl = HSLColor.fromColor(c);
+    final newSat = (hsl.saturation * 1.9).clamp(0.0, 1.0);
+    return hsl.withSaturation(newSat).toColor();
+  }
+
+
   Color _darken(Color c, double amt) {
     final f = 1 - amt;
     return Color.fromARGB(
@@ -43,6 +52,17 @@ class DiaCalendario extends ConsumerWidget {
     final dataState = ref.watch(dataControllerProvider);
     final currentLunar = dataState.lunar;
     final monthState = ref.watch(monthControllerProvider);
+
+    // feriados habilitados configurados pelo user
+    final holidayDatesAsync = ref.watch(enabledHolidayDatesProvider);
+    final holidayDates = holidayDatesAsync.maybeWhen(
+      data: (list) => list,
+      orElse: ()  => [],
+    );
+    final holidaySet = holidayDates
+      .map((d) => DateTime(d.year, d.month, d.day))
+      .toSet();
+
     // data fixa de hoje do sistema
     final todayLunar = ref.watch(todayLunarProvider);
 
@@ -50,10 +70,10 @@ class DiaCalendario extends ConsumerWidget {
     final isSelected = ref.watch(dayControllerProvider).selectedDay == day;
     // hoje = comparado com a data fixa de hoje, não com a data selecionada
     final isToday = todayLunar.monthIndex == monthState.selectedIndex && todayLunar.day == day;
- ref.watch(dayControllerProvider).selectedDay == day;
+    ref.watch(dayControllerProvider).selectedDay == day;
 
     final weekday = index % 7;
-    final base = weekdayColors[weekday];
+    final base = _warm(weekdayColors[weekday]);
     final bg = isSelected
         ? Theme.of(context).colorScheme.primary
         : base.withAlpha((base.alpha * 0.25).round());
@@ -63,11 +83,38 @@ class DiaCalendario extends ConsumerWidget {
     final thisLunar = currentLunar.copyWith(day: day);
     final greg = service.toGregorian(thisLunar);
     final isWeekend = greg.weekday == DateTime.saturday || greg.weekday == DateTime.sunday;
+    final isHoliday = holidaySet.contains(DateTime(greg.year, greg.month, greg.day));
 
     return GestureDetector(
       onTap: () {
         ref.read(dayControllerProvider.notifier).selectDay(day);
         ref.read(dataControllerProvider.notifier).setDay(day);
+        // monta mensagens
+        final msgs = <String>[];
+        if (isWeekend) {
+          msgs.add(
+            greg.weekday == DateTime.saturday
+                ? 'Sábado  - (F)inal de (S)emana'
+                : 'Domingo - (F)inal de (S)emana',
+          );
+        }
+        // busca nomes de feriado e atualiza provider
+        if (isHoliday) {
+          ref
+            .read(holidayNamesByDateProvider(
+              DateTime(greg.year, greg.month, greg.day),
+            ).future)
+            .then((names) {
+              ref
+                .read(selectedDayMessagesProvider.notifier)
+                .state = [
+                  ...msgs,
+                  ...names.map((n) => '(FE)riado: $n'),
+                ];
+            });
+        } else {
+          ref.read(selectedDayMessagesProvider.notifier).state = msgs;
+        }
       },
       child: Container(
         alignment: Alignment.center,
@@ -92,7 +139,7 @@ class DiaCalendario extends ConsumerWidget {
                 style: TextStyle(
                   decoration: isToday ? TextDecoration.underline : TextDecoration.none,
                   decorationThickness: 2,
-                  color: isSelected ? Colors.white : _darken(base, 0.3),
+                  color: isSelected ? Colors.white : _darken(base, 0.9),
                   fontWeight: isSelected || isToday ? FontWeight.bold : FontWeight.normal,
                 ),
               ),
@@ -102,10 +149,25 @@ class DiaCalendario extends ConsumerWidget {
                   child: Transform.translate(
                     offset: const Offset(2, -6),
                     child: Text(
-                      'F',
+                      'FS',
                       style: TextStyle(
                         fontSize: 8,
                         color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+              if (isHoliday)
+                WidgetSpan(
+                  alignment: PlaceholderAlignment.bottom,
+                  child: Transform.translate(
+                    offset: const Offset(2, 6),
+                    child: Text(
+                      'FE',
+                      style: TextStyle(
+                        fontSize: 8,
+                        color: const Color.fromARGB(255, 0, 0, 0),
                         fontWeight: FontWeight.bold,
                       ),
                     ),
