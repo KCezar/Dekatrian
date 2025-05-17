@@ -1,0 +1,1 @@
+enum HolidayType { Public, Bank, Religious , Optional }

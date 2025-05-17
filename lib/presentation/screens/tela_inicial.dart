@@ -102,6 +102,21 @@ class TelaInicial extends ConsumerWidget {
 
               const SizedBox(height: 16),
 
+              // Painel de informações do dia clicado
+              if (ref.watch(selectedDayMessagesProvider).isNotEmpty &&
+                  ref.watch(secondaryContentProvider) == SecondaryTab.none)
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    for (var msg in ref.watch(selectedDayMessagesProvider))
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 2, horizontal: 8),
+                        child: Text('• $msg', style: const TextStyle(fontSize: 15)),
+                      ),
+                    const SizedBox(height: 16),
+                  ],
+                ),
+
               // 5) Seção secundária: meses ou anos
               Expanded(
                 flex: _flexSecondary,
