@@ -4,6 +4,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'presentation/screens/tela_inicial.dart';
 import 'presentation/screens/tela_dekatrian.dart';
 import 'presentation/screens/tela_desenvolvimento.dart';
+import 'presentation/screens/tela_configuracoes.dart';
+import 'presentation/screens/tela_feriados.dart';
+import 'presentation/screens/tela_novo_feriado.dart';
+import 'providers/app_providers.dart';
 
 void main() {
   runApp(
@@ -26,6 +30,8 @@ class DekatrianApp extends ConsumerWidget {
       const TelaDekatrian(),
       const TelaInicial(),      
       const TelaDesenvolvimento(),
+      const TelaConfiguracoes(),
+      const TelaNovoFeriado(),
     ];
 
     return MaterialApp(
@@ -34,6 +40,10 @@ class DekatrianApp extends ConsumerWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      routes: {                                       // ← rota adicionada
+        '/feriados': (_) => const TelaFeriados(),
+        '/novo_feriado': (_) => const TelaNovoFeriado(),
+      },
       home: Scaffold(
         appBar: AppBar(
           title: Text(_titleForIndex(currentIndex)),
@@ -59,6 +69,10 @@ class DekatrianApp extends ConsumerWidget {
               icon: Icon(Icons.developer_mode),
               label: 'Dev',
             ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.settings),
+              label: 'Configurações',
+            )
           ],
         ),
       ),
@@ -78,20 +92,3 @@ class DekatrianApp extends ConsumerWidget {
     }
   }
 }
-
-// --- Providers de estado ---
-
-/// data “hoje”
-final currentDateProvider = StateProvider<DateTime>(
-  (ref) => DateTime.now(),
-);
-
-/// data que o usuário selecionou
-final selectedDateProvider = StateProvider<DateTime>(
-  (ref) => DateTime.now(),
-);
-
-/// índice da tela atual (0..3)
-final screenIndexProvider = StateProvider<int>(
-  (ref) => 1, // inicia em “Tela Inicial”
-);

@@ -8,6 +8,8 @@ import 'package:dekatrian/presentation/controllers/month_controller.dart';
 import 'package:dekatrian/presentation/controllers/year_controller.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+/// Mensagens para o dia selecionado: fim de semana ou nome(s) de feriado
+final selectedDayMessagesProvider = StateProvider<List<String>>((_) => []);
 
 final monthControllerProvider =
     StateNotifierProvider<MonthController, MonthState>((ref) {
