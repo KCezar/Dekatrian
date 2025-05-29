@@ -1,0 +1,1311 @@
+{
+  "@@locale": "es",
+  "main_title": "Calendario Dekatrian",
+  "@main_title": {
+    "description": "Titulo da aplicação",
+    "type": "text"
+  },
+  "main_0": "Inicio",
+  "@main_0": {
+    "description": "Inicial",
+    "type": "text"
+  },
+  "main_1": "Dekatrian",
+  "@main_1": {
+    "description": "Dekatrian",
+    "type": "text"
+  },
+  "main_2": "Dev",
+  "@main_2": {
+    "description": "Dev",
+    "type": "text"
+  },
+  "main_3": "Configuración",
+  "@main_3": {
+    "description": "Configurações",
+    "type": "text"
+  },
+  "main_4": "Una breve historia",
+  "@main_4": {
+    "description": "Uma Breve História",
+    "type": "text"
+  },
+  "main_5": "Calendario",
+  "@main_5": {
+    "description": "Calendário",
+    "type": "text"
+  },
+  "main_6": "Desarrollo",
+  "@main_6": {
+    "description": "Desenvolvimento",
+    "type": "text"
+  },
+  "main_7": "Calendario Dekatrian",
+  "@main_7": {
+    "description": "Calendário Dekatrian",
+    "type": "text"
+  },
+  "domain_models_lunar_date_0": "Feriado",
+  "@domain_models_lunar_date_0": {
+    "description": "Feriado",
+    "type": "text"
+  },
+  "presentation_screens_tela_configuracoes_0": "Configuraciones",
+  "@presentation_screens_tela_configuracoes_0": {
+    "description": "Configurações",
+    "type": "text"
+  },
+  "presentation_screens_tela_configuracoes_1": "Feriados",
+  "@presentation_screens_tela_configuracoes_1": {
+    "description": "Feriados",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_0": "Información Dekatrian",
+  "@presentation_screens_tela_dekatrian_0": {
+    "description": "Informações Dekatrian",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_1": "Dekatrian es un calendario ideado por el integrante del equipo del podcast Scicast:\n\n Roberto Spinelli.",
+  "@presentation_screens_tela_dekatrian_1": {
+    "description": "Descrição do calendário Dekatrian",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_2": "Visite la página de Deviante o el grupo de Facebook del Calendario Dekatrian para saber más.",
+  "@presentation_screens_tela_dekatrian_2": {
+    "description": "Descrição do grupo do facebook Dekatrian",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_3": "http://www.deviante.com.br/podcasts/scicast/",
+  "@presentation_screens_tela_dekatrian_3": {
+    "description": "Link Deviante podcast",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_4": "www.deviante.com.br/podcasts/scicast/",
+  "@presentation_screens_tela_dekatrian_4": {
+    "description": "Link site Deviante podcast",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_5": "Dekatrian no es una idea nueva; esta forma de calendario ya se utilizó en la antigüedad, como en Egipto y Grecia. El calendario lunar es una forma de medir el tiempo basada en las fases de la luna, y es utilizado por muchas culturas alrededor del mundo. Un intento más reciente de crear un calendario lunar fue realizado por Moses Bruines Cotsworth, quien creó el calendario de 13 meses, cada uno con 28 días.",
+  "@presentation_screens_tela_dekatrian_5": {
+    "description": "Sobre o calendario de 13 meses e suas tentativas",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_6": "¿Por qué adoptar Dekatrian?",
+  "@presentation_screens_tela_dekatrian_6": {
+    "description": "Por que adotar o Dekatrian?",
+    "type": "text"
+  },
+  "presentation_screens_tela_dekatrian_7": "El calendario gregoriano, usado actualmente, presenta varios problemas: los meses tienen duraciones irregulares (28, 30 o 31 días), las fechas cambian de día de la semana cada año, y las correcciones como los años bisiestos son complejas. Además, su estructura fue influenciada por decisiones políticas históricas, no siguiendo un patrón natural o lógico. El calendario Dekatrian busca corregir estas distorsiones, ofreciendo meses iguales, facilidad en la planificación y mayor armonía con ciclos naturales.",
+  "@presentation_screens_tela_dekatrian_7": {
+    "description": "Resposta do porque adotar o Dekatrian?",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_0": "Información de desarrollo",
+  "@presentation_screens_tela_desenvolvimento_0": {
+    "description": "Informações Desenvolvimento",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_1": "Este programa está siendo desarrollado por ",
+  "@presentation_screens_tela_desenvolvimento_1": {
+    "description": "Este programa está sendo desenvolvido por ",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_2": ". Para críticas, sugerencias y contactos envía un email a ",
+  "@presentation_screens_tela_desenvolvimento_2": {
+    "description": ". Para críticas, sugestões e contatos envie um email para ",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_3": "Este programa se inspiró en la app Dekatrian, desarrollada en Python por Lario Diniz, excelente aplicación, muy bien escrita.",
+  "@presentation_screens_tela_desenvolvimento_3": {
+    "description": ". Para críticas, sugestões e contatos envie um email para ",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_4": "Repositorio: ",
+  "@presentation_screens_tela_desenvolvimento_4": {
+    "description": "Repositório: ",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_5": "Un buen día cambié de celular y la misma aplicación ya no estaba disponible en la Play Store, así que decidí hacer una versión en Flutter.\n\nAgradezco a Lario Diniz por la inspiración y por el código fuente de Dekatrian, que me ayudó a entender cómo funciona el calendario Dekatrian.\n\nHaré lo mismo que Lario y dejaré el proyecto bajo licencia MIT, para quien quiera usar el código fuente de Dekatrian para estudiar o crear su propia versión.\n\n",
+  "@presentation_screens_tela_desenvolvimento_5": {
+    "description": "O que me motivou a criar o app Dekatrian",
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_6": "Versión de la aplicación: {version}",
+  "@presentation_screens_tela_desenvolvimento_6": {
+    "description": "Versão da Aplicação",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0"
+      }
+    },
+    "type": "text"
+  },
+  "presentation_screens_tela_desenvolvimento_7": "Tecnologías utilizadas en el desarrollo:",
+  "@presentation_screens_tela_desenvolvimento_7": {
+    "description": "Tecnologias utilizadas no desenvolvimento:",
+    "type": "text"
+  },
+  "presentation_screens_tela_feriados_0": "Error al cargar: {error}",
+  "@presentation_screens_tela_feriados_0": {
+    "description": "Erro ao carregar: {error}",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Erro de conexão"
+      }
+    },
+    "type": "text"
+  },
+  "presentation_screens_tela_feriados_1": "Feriados",
+  "@presentation_screens_tela_feriados_1": {
+    "description": "Feriados",
+    "type": "text"
+  },
+  "presentation_screens_tela_feriados_2": "Buscar tareas...",
+  "@presentation_screens_tela_feriados_2": {
+    "description": "Search tasks...",
+    "type": "text"
+  },
+  "presentation_screens_tela_feriados_3": "Ninguna preferencia guardada",
+  "@presentation_screens_tela_feriados_3": {
+    "description": "Nenhuma preferência salva",
+    "type": "text"
+  },
+  "presentation_screens_tela_feriados_4": "Nuevo",
+  "@presentation_screens_tela_feriados_4": {
+    "description": "Novo",
+    "type": "text"
+  },
+  "presentation_screens_tela_inicial_0": "Día",
+  "@presentation_screens_tela_inicial_0": {
+    "description": "Dia",
+    "type": "text"
+  },
+  "presentation_screens_tela_inicial_1": "Mes",
+  "@presentation_screens_tela_inicial_1": {
+    "description": "Mês",
+    "type": "text"
+  },
+  "presentation_screens_tela_inicial_2": "Año",
+  "@presentation_screens_tela_inicial_2": {
+    "description": "Ano",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_0": "Nuevo feriado",
+  "@presentation_screens_tela_novo_feriado_0": {
+    "description": "Novo Feriado",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_1": "Buscar",
+  "@presentation_screens_tela_novo_feriado_1": {
+    "description": "Search",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_2": "País",
+  "@presentation_screens_tela_novo_feriado_2": {
+    "description": "País",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_3": "Región",
+  "@presentation_screens_tela_novo_feriado_3": {
+    "description": "Região",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_4": "Religión",
+  "@presentation_screens_tela_novo_feriado_4": {
+    "description": "Religião",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_5": "¡Preferencias guardadas con éxito!",
+  "@presentation_screens_tela_novo_feriado_5": {
+    "description": "'Preferências salvas com sucesso!",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_6": "Guardar",
+  "@presentation_screens_tela_novo_feriado_6": {
+    "description": "Salvar",
+    "type": "text"
+  },
+  "presentation_screens_tela_novo_feriado_7": "Ninguna",
+  "@presentation_screens_tela_novo_feriado_7": {
+    "description": "Nenhuma",
+    "type": "text"
+  },
+  "presentation_widgets_dia_calendario_0": "Sábado - (F)in de (S)emana",
+  "@presentation_widgets_dia_calendario_0": {
+    "description": "Sábado  - (F)inal de (S)emana",
+    "type": "text"
+  },
+  "presentation_widgets_dia_calendario_1": "Domingo - (F)in de (S)emana",
+  "@presentation_widgets_dia_calendario_1": {
+    "description": "Domingo - (F)inal de (S)emana",
+    "type": "text"
+  },
+  "presentation_widgets_dia_calendario_2": "(FE)stivo: {n}",
+  "@presentation_widgets_dia_calendario_2": {
+    "description": "(FE)riado:  descrição do feriado",
+    "placeholders": {
+      "n": {
+        "type": "String",
+        "example": "Natal"
+      }
+    },
+    "type": "text"
+  },
+  "presentation_widgets_dia_calendario_3": "FS",
+  "@presentation_widgets_dia_calendario_3": {
+    "description": "Abreviação de (F)inal de (S)emana",
+    "type": "text"
+  },
+  "presentation_widgets_dia_calendario_4": "FE",
+  "@presentation_widgets_dia_calendario_4": {
+    "description": "Abreviação de (FE)riado",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_0": "Confraternización Universal",
+  "@providers_country_brazil_holiday_providers_0": {
+    "description": "Confraternização Universal",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_1": "Día de Tiradentes",
+  "@providers_country_brazil_holiday_providers_1": {
+    "description": "Dia de Tiradentes, Tirandentes é nome proprio",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_2": "Día del Trabajador",
+  "@providers_country_brazil_holiday_providers_2": {
+    "description": "Dia do Trabalhador",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_3": "Revolución Constitucionalista de 1932",
+  "@providers_country_brazil_holiday_providers_3": {
+    "description": "Revolução Constitucionalista de 1932",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_4": "Día de la Independencia",
+  "@providers_country_brazil_holiday_providers_4": {
+    "description": "Dia da Independência",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_5": "Proclamación de la República",
+  "@providers_country_brazil_holiday_providers_5": {
+    "description": "Proclamação da República",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_6": "Carnaval",
+  "@providers_country_brazil_holiday_providers_6": {
+    "description": "Carnaval",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_7": "Carnaval",
+  "@providers_country_brazil_holiday_providers_7": {
+    "description": "Carnaval",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_8": "Aniversario del Espíritu Santo",
+  "@providers_country_brazil_holiday_providers_8": {
+    "description": "Aniversário do Espírito Santo, Espírito Santo é nome proprio",
+    "type": "text"
+  },
+  "providers_country_brazil_holiday_providers_9": "Día de la Conciencia Negra",
+  "@providers_country_brazil_holiday_providers_9": {
+    "description": "Dia da Consciência Negra",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_0": "Año Nuevo",
+  "@providers_country_argentina_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_1": "Carnaval",
+  "@providers_country_argentina_holiday_providers_1": {
+    "description": "Carnaval",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_2": "Carnaval",
+  "@providers_country_argentina_holiday_providers_2": {
+    "description": "Carnaval",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_3": "Día de la Memoria por la Verdad y la Justicia",
+  "@providers_country_argentina_holiday_providers_3": {
+    "description": "Dia da memória pela verdade e justiça",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_4": "Día de los Veteranos y Caídos de la Guerra de las Malvinas",
+  "@providers_country_argentina_holiday_providers_4": {
+    "description": "Dia dos veteranos e mortos na Guerra das Malvinas",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_5": "Día del Trabajo",
+  "@providers_country_argentina_holiday_providers_5": {
+    "description": "Dia do trabalho",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_6": "Revolución de Mayo",
+  "@providers_country_argentina_holiday_providers_6": {
+    "description": "Revolução de Maio",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_7": "Aniversario del Fallecimiento del General Martín Miguel de Güemes",
+  "@providers_country_argentina_holiday_providers_7": {
+    "description": "Aniversário do falecimento do General Martín Miguel de Güemes",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_8": "Día en Memoria del General Manuel Belgrano",
+  "@providers_country_argentina_holiday_providers_8": {
+    "description": "Dia em memória do General Manuel Belgrano",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_9": "Día de la Independencia",
+  "@providers_country_argentina_holiday_providers_9": {
+    "description": "Dia da independência",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_10": "Día en Memoria del General José de San Martín",
+  "@providers_country_argentina_holiday_providers_10": {
+    "description": "Dia em memória do General José de San Martín",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_11": "Día del Respeto a la Diversidad Cultural",
+  "@providers_country_argentina_holiday_providers_11": {
+    "description": "Dia do respeito à diversidade cultural",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_12": "Día de la Soberanía Nacional",
+  "@providers_country_argentina_holiday_providers_12": {
+    "description": "Dia da soberania nacional",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_13": "Día de la Inmaculada Concepción",
+  "@providers_country_argentina_holiday_providers_13": {
+    "description": "Dia da Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_country_argentina_holiday_providers_14": "Navidad",
+  "@providers_country_argentina_holiday_providers_14": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+"providers_country_bolivia_holiday_providers_0": "Año Nuevo",
+  "@providers_country_bolivia_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_1": "Día de la Fundación del Estado Plurinacional",
+  "@providers_country_bolivia_holiday_providers_1": {
+    "description": "Fundação do Estado Plurinacional",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_2": "Lunes de Carnaval",
+  "@providers_country_bolivia_holiday_providers_2": {
+    "description": "Segunda-feira de Carnaval",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_3": "Martes de Carnaval",
+  "@providers_country_bolivia_holiday_providers_3": {
+    "description": "Terça-feira de Carnaval",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_4": "Día del Trabajador",
+  "@providers_country_bolivia_holiday_providers_4": {
+    "description": "Dia do trabalho",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_5": "Año Nuevo Aymara",
+  "@providers_country_bolivia_holiday_providers_5": {
+    "description": "Ano Novo Aymara",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_6": "Día de la Independencia",
+  "@providers_country_bolivia_holiday_providers_6": {
+    "description": "Dia da independência",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_7": "Día de los Difuntos",
+  "@providers_country_bolivia_holiday_providers_7": {
+    "description": "Dia de Finados",
+    "type": "text"
+  },
+  "providers_country_bolivia_holiday_providers_8": "Navidad",
+  "@providers_country_bolivia_holiday_providers_8": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+  "providers_country_china_holiday_providers_0": "Año Nuevo Chino",
+  "@providers_country_china_holiday_providers_0": {
+    "description": "Ano novo chinês",
+    "type": "text"
+  },
+  "providers_country_china_holiday_providers_1": "Festival de Qingming (Día de Barrido de Tumbas)",
+  "@providers_country_china_holiday_providers_1": {
+    "description": "Festival Qingming (Dia de Varrição de Túmulos)",
+    "type": "text"
+  },
+  "providers_country_china_holiday_providers_2": "Día Internacional de los Trabajadores",
+  "@providers_country_china_holiday_providers_2": {
+    "description": "Dia Internacional do Trabalhador",
+    "type": "text"
+  },
+  "providers_country_china_holiday_providers_3": "Festival del Bote Dragón",
+  "@providers_country_china_holiday_providers_3": {
+    "description": "Festival do Barco-Dragão",
+    "type": "text"
+  },
+  "providers_country_china_holiday_providers_4": "Festival del Medio Otoño",
+  "@providers_country_china_holiday_providers_4": {
+    "description": "Festival do Meio Outono",
+    "type": "text"
+  },
+  "providers_country_china_holiday_providers_5": "Día Nacional",
+  "@providers_country_china_holiday_providers_5": {
+    "description": "Dia Nacional",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_0": "Año Nuevo",
+  "@providers_country_colombia_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_1": "Epifanía",
+  "@providers_country_colombia_holiday_providers_1": {
+    "description": "Dia de Reis",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_2": "Día de San José",
+  "@providers_country_colombia_holiday_providers_2": {
+    "description": "Dia de São José",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_3": "Jueves Santo",
+  "@providers_country_colombia_holiday_providers_3": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_4": "Viernes Santo",
+  "@providers_country_colombia_holiday_providers_4": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_5": "Día del Trabajo",
+  "@providers_country_colombia_holiday_providers_5": {
+    "description": "Dia do Trabalho",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_6": "Ascensión de Jesucristo",
+  "@providers_country_colombia_holiday_providers_6": {
+    "description": "Ascensão de Jesus Cristo",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_7": "Corpus Christi",
+  "@providers_country_colombia_holiday_providers_7": {
+    "description": "Corpus Christi",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_8": "Sagrado Corazón",
+  "@providers_country_colombia_holiday_providers_8": {
+    "description": "Sagrado Coração de Jesus",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_9": "Día de la Independencia de Colombia",
+  "@providers_country_colombia_holiday_providers_9": {
+    "description": "Dia da Independência da Colômbia",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_10": "Batalla de Boyacá",
+  "@providers_country_colombia_holiday_providers_10": {
+    "description": "Dia da Batalha de Boyacá",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_11": "Asunción de la Virgen",
+  "@providers_country_colombia_holiday_providers_11": {
+    "description": "Assunção de Maria",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_12": "Día de la Raza",
+  "@providers_country_colombia_holiday_providers_12": {
+    "description": "Dia de Colombo",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_13": "Día de Todos los Santos",
+  "@providers_country_colombia_holiday_providers_13": {
+    "description": "Dia de Todos os Santos",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_14": "Día de la Inmaculada Concepción",
+  "@providers_country_colombia_holiday_providers_14": {
+    "description": "Dia da Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_country_colombia_holiday_providers_15": "Navidad",
+  "@providers_country_colombia_holiday_providers_15": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_0": "Año Nuevo",
+  "@providers_country_french_guiana_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_1": "Día del Trabajador",
+  "@providers_country_french_guiana_holiday_providers_1": {
+    "description": "Dia do trabalhador",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_2": "Día de la Victoria en Europa",
+  "@providers_country_french_guiana_holiday_providers_2": {
+    "description": "Dia da Vitória na Europa",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_3": "Día de la Ascensión",
+  "@providers_country_french_guiana_holiday_providers_3": {
+    "description": "Dia da Ascensão",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_4": "Lunes de Pentecostés",
+  "@providers_country_french_guiana_holiday_providers_4": {
+    "description": "Segunda-feira de Pentecostes",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_5": "Día de la Bastilla",
+  "@providers_country_french_guiana_holiday_providers_5": {
+    "description": "Dia da Bastilha",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_6": "Asunción de María",
+  "@providers_country_french_guiana_holiday_providers_6": {
+    "description": "Assunção de Maria",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_7": "Día de Todos los Santos",
+  "@providers_country_french_guiana_holiday_providers_7": {
+    "description": "Dia de Todos os Santos",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_8": "Día del Armisticio",
+  "@providers_country_french_guiana_holiday_providers_8": {
+    "description": "Dia do Armistício",
+    "type": "text"
+  },
+  "providers_country_french_guiana_holiday_providers_9": "Navidad",
+  "@providers_country_french_guiana_holiday_providers_9": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+"providers_country_guyana_holiday_providers_0": "Año Nuevo",
+  "@providers_country_guyana_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_1": "Día de la República",
+  "@providers_country_guyana_holiday_providers_1": {
+    "description": "Dia da República",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_2": "Phagwah",
+  "@providers_country_guyana_holiday_providers_2": {
+    "description": "Phagwah",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_3": "Viernes Santo",
+  "@providers_country_guyana_holiday_providers_3": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_4": "Lunes de Pascua",
+  "@providers_country_guyana_holiday_providers_4": {
+    "description": "Segunda-feira de Páscoa",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_5": "Día del Trabajo",
+  "@providers_country_guyana_holiday_providers_5": {
+    "description": "Dia do trabalhador",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_6": "Día de la Llegada",
+  "@providers_country_guyana_holiday_providers_6": {
+    "description": "Dia da chegada",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_7": "Día de la Independencia",
+  "@providers_country_guyana_holiday_providers_7": {
+    "description": "Dia da independência",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_8": "Día de CARICOM",
+  "@providers_country_guyana_holiday_providers_8": {
+    "description": "Dia do CARICOM",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_9": "Día de la Emancipación",
+  "@providers_country_guyana_holiday_providers_9": {
+    "description": "Dia da Emancipação",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_10": "Deepavali",
+  "@providers_country_guyana_holiday_providers_10": {
+    "description": "Deepavali",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_11": "Navidad",
+  "@providers_country_guyana_holiday_providers_11": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_12": "Boxing Day",
+  "@providers_country_guyana_holiday_providers_12": {
+    "description": "Boxing Day",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_13": "Youman-Nabi",
+  "@providers_country_guyana_holiday_providers_13": {
+    "description": "Youman-Nabi",
+    "type": "text"
+  },
+  "providers_country_guyana_holiday_providers_14": "Eid-ul-Adha",
+  "@providers_country_guyana_holiday_providers_14": {
+    "description": "Eid-ul-Adha",
+    "type": "text"
+  },
+  "providers_country_india_holiday_providers_0": "Día de la República",
+  "@providers_country_india_holiday_providers_0": {
+    "description": "Dia da República",
+    "type": "text"
+  },
+  "providers_country_india_holiday_providers_1": "Jayanti de Ambedkar",
+  "@providers_country_india_holiday_providers_1": {
+    "description": "Jayanti de Ambedkar",
+    "type": "text"
+  },
+  "providers_country_india_holiday_providers_2": "Día de la Independencia",
+  "@providers_country_india_holiday_providers_2": {
+    "description": "Dia da Independência",
+    "type": "text"
+  },
+  "providers_country_india_holiday_providers_3": "Jayanti de Gandhi",
+  "@providers_country_india_holiday_providers_3": {
+    "description": "Jayanti de Gandhi",
+    "type": "text"
+  },
+  "providers_country_japan_holiday_providers_0": "Año Nuevo",
+  "@providers_country_japan_holiday_providers_0": {
+      "description": "Ano novo",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_1": "Día de la Mayoría de Edad",
+  "@providers_country_japan_holiday_providers_1": {
+      "description": "Dia da maioridade",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_2": "Día de la Fundación",
+  "@providers_country_japan_holiday_providers_2": {
+      "description": "Dia da fundação",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_3": "Día de Shōwa",
+  "@providers_country_japan_holiday_providers_3": {
+      "description": "Dia Shōwa",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_4": "Día de la Constitución",
+  "@providers_country_japan_holiday_providers_4": {
+      "description": "Dia da Constituição",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_5": "Día de la Naturaleza",
+  "@providers_country_japan_holiday_providers_5": {
+      "description": "Dia da natureza",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_6": "Día del Niño",
+  "@providers_country_japan_holiday_providers_6": {
+      "description": "Dia das crianças",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_7": "Día del Mar",
+  "@providers_country_japan_holiday_providers_7": {
+      "description": "Dia do mar",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_8": "Día de la Montaña",
+  "@providers_country_japan_holiday_providers_8": {
+      "description": "Dia da montanha",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_9": "Día del Respeto a los Mayores",
+  "@providers_country_japan_holiday_providers_9": {
+      "description": "Dia do respeito aos idosos",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_10": "Día de la Cultura",
+  "@providers_country_japan_holiday_providers_10": {
+      "description": "Dia da cultura",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_11": "Día de Acción de Gracias por el Trabajo",
+  "@providers_country_japan_holiday_providers_11": {
+      "description": "Dia de ação de graças pelo trabalho",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_12": "El cumpleaños del Emperador Tenchobushi",
+  "@providers_country_japan_holiday_providers_12": {
+      "description": "Aniversário do imperador",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_13": "El cumpleaños del Emperador",
+  "@providers_country_japan_holiday_providers_13": {
+      "description": "Aniversário do imperador",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_14": "Día de la Salud y el Deporte",
+  "@providers_country_japan_holiday_providers_14": {
+      "description": "Dia da saúde e esportes",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_15": "Día del Deporte",
+  "@providers_country_japan_holiday_providers_15": {
+      "description": "Dia dos esportes",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_16": "Día del Equinoccio Vernal",
+  "@providers_country_japan_holiday_providers_16": {
+      "description": "Dia do equinócio vernal",
+      "type": "text"
+  },
+  "providers_country_japan_holiday_providers_17": "Día del Equinoccio Otoñal",
+  "@providers_country_japan_holiday_providers_17": {
+      "description": "Dia do equinócio outonal",
+      "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_0": "Año Nuevo",
+  "@providers_country_paraguay_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_1": "Día de los Héroes",
+  "@providers_country_paraguay_holiday_providers_1": {
+    "description": "Dia dos heróis",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_2": "Día del Trabajo",
+  "@providers_country_paraguay_holiday_providers_2": {
+    "description": "Dia do trabalhador",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_3": "Independencia del Paraguay",
+  "@providers_country_paraguay_holiday_providers_3": {
+    "description": "Independência do Paraguai",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_4": "Independencia del Paraguay",
+  "@providers_country_paraguay_holiday_providers_4": {
+    "description": "Independência do Paraguai",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_5": "Armisticio del Chaco",
+  "@providers_country_paraguay_holiday_providers_5": {
+    "description": "Armistício do Chaco",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_6": "Fundación de Asunción",
+  "@providers_country_paraguay_holiday_providers_6": {
+    "description": "Fundação de Assunção",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_7": "Victoria de la Batalla de Boquerón",
+  "@providers_country_paraguay_holiday_providers_7": {
+    "description": "Dia da vitória na Batalha de Boquerón",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_8": "Virgen de Caacupé",
+  "@providers_country_paraguay_holiday_providers_8": {
+    "description": "Dia de Nossa Senhora de Caacupé",
+    "type": "text"
+  },
+  "providers_country_paraguay_holiday_providers_9": "Navidad",
+  "@providers_country_paraguay_holiday_providers_9": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_0": "Año Nuevo",
+  "@providers_country_peru_holiday_providers_0": {
+    "description": "Ano novo",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_1": "Jueves Santo",
+  "@providers_country_peru_holiday_providers_1": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_2": "Día Internacional de los Trabajadores",
+  "@providers_country_peru_holiday_providers_2": {
+    "description": "Dia Internacional do Trabalhador",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_3": "San Pedro y San Pablo",
+  "@providers_country_peru_holiday_providers_3": {
+    "description": "Dia de São Pedro e São Paulo",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_4": "Día de la Independencia",
+  "@providers_country_peru_holiday_providers_4": {
+    "description": "Dia da Independência (1º dia)",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_5": "Día de la Independencia",
+  "@providers_country_peru_holiday_providers_5": {
+    "description": "Dia da Independência (2º dia)",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_6": "Santa Rosa de Lima",
+  "@providers_country_peru_holiday_providers_6": {
+    "description": "Dia de Santa Rosa de Lima",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_7": "Batalla de Angamos",
+  "@providers_country_peru_holiday_providers_7": {
+    "description": "Dia da Batalha de Angamos",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_8": "Día de Todos los Santos",
+  "@providers_country_peru_holiday_providers_8": {
+    "description": "Dia de Todos os Santos",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_9": "Inmaculada Concepción",
+  "@providers_country_peru_holiday_providers_9": {
+    "description": "Dia da Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_country_peru_holiday_providers_10": "Navidad",
+  "@providers_country_peru_holiday_providers_10": {
+    "description": "Dia de Natal",
+    "type": "text"
+  },
+	"providers_country_russia_holiday_providers_0": "Año Nuevo",
+	"@providers_country_russia_holiday_providers_0": {
+		"description": "Ano novo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_1": "Vacaciones de Año Nuevo",
+	"@providers_country_russia_holiday_providers_1": {
+		"description": "Feriado de Ano Novo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_2": "Vacaciones de Año Nuevo",
+	"@providers_country_russia_holiday_providers_2": {
+		"description": "Feriado de Ano Novo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_3": "Vacaciones de Año Nuevo",
+	"@providers_country_russia_holiday_providers_3": {
+		"description": "Feriado de Ano Novo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_4": "Vacaciones de Año Nuevo",
+	"@providers_country_russia_holiday_providers_4": {
+		"description": "Feriado de Ano Novo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_5": "Vacaciones de Año Nuevo",
+	"@providers_country_russia_holiday_providers_5": {
+		"description": "Feriado de Ano Novo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_6": "Navidad ortodoxa",
+	"@providers_country_russia_holiday_providers_6": {
+		"description": "Natal ortodoxo",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_7": "Día del Defensor de la Patria",
+	"@providers_country_russia_holiday_providers_7": {
+		"description": "Dia do Defensor da Pátria",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_8": "Día Internacional de la Mujer",
+	"@providers_country_russia_holiday_providers_8": {
+		"description": "Dia Internacional da Mulher",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_9": "Día del Trabajo",
+	"@providers_country_russia_holiday_providers_9": {
+		"description": "Dia do Trabalhador",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_10": "Día de la Victoria",
+	"@providers_country_russia_holiday_providers_10": {
+		"description": "Dia da Vitória",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_11": "Día de Rusia",
+	"@providers_country_russia_holiday_providers_11": {
+		"description": "Dia da Rússia",
+		"type": "text"
+	},
+	"providers_country_russia_holiday_providers_12": "Día de la Unidad",
+	"@providers_country_russia_holiday_providers_12": {
+		"description": "Dia da Unidade",
+		"type": "text"
+	},
+  "providers_country_spain_holiday_providers_0": "Epifanía",
+  "@providers_country_spain_holiday_providers_0": {
+    "description": "Dia de Reis",
+    "type": "text"
+  },
+  "providers_country_spain_holiday_providers_1": "Día del Trabajo",
+  "@providers_country_spain_holiday_providers_1": {
+    "description": "Dia do Trabalhador",
+    "type": "text"
+  },
+  "providers_country_spain_holiday_providers_2": "Fiesta Nacional",
+  "@providers_country_spain_holiday_providers_2": {
+    "description": "Dia Nacional da Espanha",
+    "type": "text"
+  },
+  "providers_country_spain_holiday_providers_3": "Día de Todos los Santos",
+  "@providers_country_spain_holiday_providers_3": {
+    "description": "Dia de Todos os Santos",
+    "type": "text"
+  },
+  "providers_country_spain_holiday_providers_4": "Día de la Constitución",
+  "@providers_country_spain_holiday_providers_4": {
+    "description": "Dia da Constituição",
+    "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_0": "Año Nuevo",
+  "@providers_country_suriname_holiday_providers_0": {
+      "description": "Ano novo",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_1": "Año Nuevo Chino",
+  "@providers_country_suriname_holiday_providers_1": {
+      "description": "Ano novo chinês",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_2": "Phagwah (Holi Phagwa)",
+  "@providers_country_suriname_holiday_providers_2": {
+      "description": "Phagwah (Holi Phagwa)",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_3": "Eid al-Fitr",
+  "@providers_country_suriname_holiday_providers_3": {
+      "description": "Eid al-Fitr",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_4": "Día del Trabajo",
+  "@providers_country_suriname_holiday_providers_4": {
+      "description": "Dia do Trabalhador",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_5": "Eid al-Adha",
+  "@providers_country_suriname_holiday_providers_5": {
+      "description": "Eid al-Adha",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_6": "Día de la Emancipación (Ketikoti)",
+  "@providers_country_suriname_holiday_providers_6": {
+      "description": "Dia da Emancipação (Ketikoti)",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_7": "Día de los Pueblos Indígenas",
+  "@providers_country_suriname_holiday_providers_7": {
+      "description": "Dia dos Povos Indígenas",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_8": "Día de los Marrones",
+  "@providers_country_suriname_holiday_providers_8": {
+      "description": "Dia dos Maroons",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_9": "Diwali",
+  "@providers_country_suriname_holiday_providers_9": {
+      "description": "Diwali",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_10": "Día de la Independencia",
+  "@providers_country_suriname_holiday_providers_10": {
+      "description": "Dia da Independência",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_11": "Navidad",
+  "@providers_country_suriname_holiday_providers_11": {
+      "description": "Natal",
+      "type": "text"
+  },
+  "providers_country_suriname_holiday_providers_12": "Día de San Esteban",
+  "@providers_country_suriname_holiday_providers_12": {
+      "description": "Boxing Day",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_0": "Año Nuevo",
+  "@providers_country_uruguay_holiday_providers_0": {
+      "description": "Ano novo",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_1": "Día del Niño",
+  "@providers_country_uruguay_holiday_providers_1": {
+      "description": "Dia das crianças",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_2": "Día del Desembarco de los 33 Patriotas",
+  "@providers_country_uruguay_holiday_providers_2": {
+      "description": "Dia do desembarque dos 33 patriotas",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_3": "Día Internacional de los Trabajadores",
+  "@providers_country_uruguay_holiday_providers_3": {
+      "description": "Dia Internacional do Trabalhador",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_4": "Batalla de Las Piedras",
+  "@providers_country_uruguay_holiday_providers_4": {
+      "description": "Batalha de Las Piedras",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_5": "Cumpleaños de José Gervasio Artigas y Día del Nunca Más",
+  "@providers_country_uruguay_holiday_providers_5": {
+      "description": "Aniversário de José Gervasio Artigas e Dia do Nunca Mais",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_6": "Día de la Constitución",
+  "@providers_country_uruguay_holiday_providers_6": {
+      "description": "Dia da Constituição",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_7": "Día de la Independencia",
+  "@providers_country_uruguay_holiday_providers_7": {
+      "description": "Dia da Independência",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_8": "Día de la Raza",
+  "@providers_country_uruguay_holiday_providers_8": {
+      "description": "Dia da Raça",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_9": "Día de los Muertos",
+  "@providers_country_uruguay_holiday_providers_9": {
+      "description": "Dia dos mortos",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_10": "Navidad",
+  "@providers_country_uruguay_holiday_providers_10": {
+      "description": "Dia de Natal",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_11": "Carnaval",
+  "@providers_country_uruguay_holiday_providers_11": {
+      "description": "Carnaval",
+      "type": "text"
+  },
+  "providers_country_uruguay_holiday_providers_12": "Carnaval",
+  "@providers_country_uruguay_holiday_providers_12": {
+      "description": "Carnaval",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_0": "Día de Año Nuevo",
+  "@providers_country_united_states_holiday_providers_0": {
+      "description": "Dia de Ano Novo",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_1": "Día de Martin Luther King Jr.",
+  "@providers_country_united_states_holiday_providers_1": {
+      "description": "Dia de Martin Luther King Jr.",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_2": "Día de los Presidentes",
+  "@providers_country_united_states_holiday_providers_2": {
+      "description": "Dia dos Presidentes",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_3": "Día de los Caídos",
+  "@providers_country_united_states_holiday_providers_3": {
+      "description": "Dia da Memória",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_4": "Día Nacional de la Independencia de Juneteenth",
+  "@providers_country_united_states_holiday_providers_4": {
+      "description": "Dia da Independência Nacional de Juneteenth",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_5": "Día de la Independencia",
+  "@providers_country_united_states_holiday_providers_5": {
+      "description": "Dia da Independência",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_6": "Día del Trabajo",
+  "@providers_country_united_states_holiday_providers_6": {
+      "description": "Dia do Trabalho",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_7": "Día de la Raza",
+  "@providers_country_united_states_holiday_providers_7": {
+      "description": "Dia de Colombo",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_8": "Día de los Veteranos",
+  "@providers_country_united_states_holiday_providers_8": {
+      "description": "Dia dos Veteranos",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_9": "Día de Acción de Gracias",
+  "@providers_country_united_states_holiday_providers_9": {
+      "description": "Dia de Ação de Graças",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_10": "Navidad",
+  "@providers_country_united_states_holiday_providers_10": {
+      "description": "Dia de Natal",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_11": "Día de Truman",
+  "@providers_country_united_states_holiday_providers_11": {
+      "description": "Dia de Truman",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_12": "Día de los Pueblos Indígenas",
+  "@providers_country_united_states_holiday_providers_12": {
+      "description": "Dia dos Povos Indígenas",
+      "type": "text"
+  },
+  "providers_country_united_states_holiday_providers_13": "Cumpleaños de Lincoln",
+  "@providers_country_united_states_holiday_providers_13": {
+      "description": "Aniversário de Lincoln",
+      "type": "text"
+  },
+  "providers_religion_catholic_providers_0": "Jueves Santo",
+  "@providers_religion_catholic_providers_0": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_1": "Viernes Santo",
+  "@providers_religion_catholic_providers_1": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_2": "Domingo de Pascua",
+  "@providers_religion_catholic_providers_2": {
+    "description": "Domingo de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_3": "Lunes de Pascua",
+  "@providers_religion_catholic_providers_3": {
+    "description": "Segunda-feira de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_4": "Ascensión del Señor",
+  "@providers_religion_catholic_providers_4": {
+    "description": "Ascensão do Senhor",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_5": "Pentecostés",
+  "@providers_religion_catholic_providers_5": {
+    "description": "Pentecostes",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_6": "Corpus Christi",
+  "@providers_religion_catholic_providers_6": {
+    "description": "Corpus Christi",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_7": "Día de los Fieles Difuntos",
+  "@providers_religion_catholic_providers_7": {
+    "description": "Dia de Finados",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_8": "Nuestra Señora Aparecida",
+  "@providers_religion_catholic_providers_8": {
+    "description": "Nossa Senhora Aparecida, Aparecida é nome proprio",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_9": "Navidad",
+  "@providers_religion_catholic_providers_9": {
+    "description": "Natal",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_10": "Nuestra Señora de la Victoria",
+  "@providers_religion_catholic_providers_10": {
+    "description": "Nossa Senhora da Vitória, Vitória é nome proprio",
+    "type": "text"
+  },
+  "providers_holiday_providers_0": "Brasil",
+  "@providers_holiday_providers_0": {
+    "description": "Brasil",
+    "type": "text"
+  },
+  "providers_holiday_providers_1": "Argentina",
+  "@providers_holiday_providers_1": {
+    "description": "Argentina",
+    "type": "text"
+  },
+  "providers_holiday_providers_2": "Bolivia",
+  "@providers_holiday_providers_2": {
+    "description": "Bolívia",
+    "type": "text"
+  },
+  "providers_holiday_providers_3": "Perú",
+  "@providers_holiday_providers_3": {
+    "description": "Peru",
+    "type": "text"
+  },
+  "providers_holiday_providers_4": "Paraguay",
+  "@providers_holiday_providers_4": {
+    "description": "Paraguai",
+    "type": "text"
+  },
+  "providers_holiday_providers_5": "Colombia",
+  "@providers_holiday_providers_5": {
+    "description": "Colômbia",
+    "type": "text"
+  },
+  "providers_holiday_providers_6": "Guayana Francesa",
+  "@providers_holiday_providers_6": {
+    "description": "Guiana Francesa",
+    "type": "text"
+  },
+  "providers_holiday_providers_7": "Surinam",
+  "@providers_holiday_providers_7": {
+    "description": "Suriname",
+    "type": "text"
+  },
+  "providers_holiday_providers_8": "Guyana",
+  "@providers_holiday_providers_8": {
+    "description": "Guiana",
+    "type": "text"
+  },
+  "providers_holiday_providers_10": "España",
+  "@providers_holiday_providers_10": {
+    "description": "Espanha",
+    "type": "text"
+  },
+  "providers_holiday_providers_11": "Rusia",
+  "@providers_holiday_providers_11": {
+    "description": "Rússia",
+    "type": "text"
+  },
+  "providers_holiday_providers_12": "Japón",
+  "@providers_holiday_providers_12": {
+    "description": "Japão",
+    "type": "text"
+  },
+  "providers_holiday_providers_13": "China",
+  "@providers_holiday_providers_13": {
+    "description": "China",
+    "type": "text"
+  },
+  "providers_holiday_providers_14": "India",
+  "@providers_holiday_providers_14": {
+    "description": "Índia",
+    "type": "text"
+  },
+  "providers_holiday_providers_15": "Uruguay",
+  "@providers_holiday_providers_15": {
+    "description": "Uruguai",
+    "type": "text"
+  },
+  "providers_holiday_providers_16": "Católico",
+  "@providers_holiday_providers_16": {
+    "description": "Católico",
+    "type": "text"
+  }
+}

@@ -6,6 +6,7 @@ import 'package:dekatrian/data/local/database.dart';
 import 'package:dekatrian/providers/database_providers.dart';
 import 'package:dekatrian/providers/holiday_providers.dart';
 import 'package:dekatrian/presentation/screens/tela_novo_feriado.dart';
+import '../../l10n/app_localizations.dart';
 
 /// Provider que busca todas as preferências salvas
 final holidayPreferencesProvider =
@@ -25,12 +26,12 @@ class TelaFeriados extends ConsumerWidget {
         body: Center(child: CircularProgressIndicator()),
       ),
       error: (e, _) => Scaffold(
-        body: Center(child: Text('Erro ao carregar: \$e')),
+        body: Center(child: Text(AppLocalizations.of(context)!.presentation_screens_tela_feriados_0(e.toString()))),
       ),
       data: (prefs) {
         return Scaffold(
           appBar: AppBar(
-            title: const Text('Feriados'),
+            title: Text(AppLocalizations.of(context)!.presentation_screens_tela_feriados_1),
             backgroundColor: const Color(0xFF6200EA),
             bottom: PreferredSize(
               preferredSize: const Size.fromHeight(60),
@@ -39,7 +40,7 @@ class TelaFeriados extends ConsumerWidget {
                 child: TextField(
                   decoration: InputDecoration(
                     prefixIcon: const Icon(Icons.search),
-                    hintText: 'Search tasks...',
+                    hintText: AppLocalizations.of(context)!.presentation_screens_tela_feriados_2,
                     filled: true,
                     fillColor: Colors.white,
                     border: OutlineInputBorder(
@@ -55,7 +56,7 @@ class TelaFeriados extends ConsumerWidget {
             ),
           ),
           body: prefs.isEmpty
-              ? const Center(child: Text('Nenhuma preferência salva'))
+              ? Center(child: Text(AppLocalizations.of(context)!.presentation_screens_tela_feriados_3))
               : ListView.builder(
                   padding: const EdgeInsets.all(12),
                   itemCount: prefs.length,
@@ -158,7 +159,7 @@ class TelaFeriados extends ConsumerWidget {
                   ref.refresh(holidayPreferencesProvider);
                 }
               },
-              child: const Text('Novo'),
+              child: Text(AppLocalizations.of(context)!.presentation_screens_tela_feriados_4),
             ),
           ),
           floatingActionButtonLocation:

@@ -1,7 +1,23 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:drift/drift.dart';
+import '/providers/country/argentina_holiday_providers.dart';
+import '/providers/country/bolivia_holiday_providers.dart';
 import '/providers/country/brazil_holiday_providers.dart';
 import '/providers/country/brazil_subdivision_provider.dart';
+import '/providers/country/china_holiday_providers.dart';
+import '/providers/country/colombia_holiday_providers.dart';
+import '/providers/country/french_guiana_holiday_providers.dart';
+import '/providers/country/guyana_holiday_providers.dart';
+import '/providers/country/india_holiday_providers.dart';
+import '/providers/country/japan_holiday_providers.dart';
+import '/providers/country/paraguay_holiday_providers.dart';
+import '/providers/country/peru_holiday_providers.dart';
+import '/providers/country/russia_holiday_providers.dart';
+import '/providers/country/spain_holiday_providers.dart';
+import '/providers/country/suriname_holiday_providers.dart';
+import '/providers/country/uruguay_holiday_providers.dart';
+import '/providers/country/united_states_holiday_providers.dart';
+import '/providers/country/united_states_subdivision_providers.dart';
 import '/providers/religion/catholic_providers.dart';
 import '/providers/database_providers.dart';
 import '/domain/models/holiday_specification.dart';
@@ -9,6 +25,7 @@ import '/domain/models/subdivision.dart';
 import '/domain/models/country_config.dart';
 import '/domain/models/religion_config.dart';
 import '/data/local/database.dart';
+import 'package:dekatrian/application/services/translation_service.dart';
 
 
 /// Estado da UI para seleção
@@ -20,17 +37,106 @@ final selectedReligionProvider  = StateProvider<String?>((_) => null);
 final List<CountryConfig> countryConfigs = [
   CountryConfig(
     code: 'BR',
-    name: 'Brasil',
+    name: TranslationService.instance.tr('providers_holiday_providers_0'),
     getSubdivisions: () => BrazilSubdivisionProvider.getAll(),
     getHolidays: (year) => BrazilHolidayProvider.getHolidays(year),
   ),
-  // adicionar novos CountryConfig para outros países aqui
+  CountryConfig(
+    code: 'AR',
+    name: TranslationService.instance.tr('providers_holiday_providers_1'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => ArgentinaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'BO',
+    name: TranslationService.instance.tr('providers_holiday_providers_2'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => BoliviaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'PE',
+    name: TranslationService.instance.tr('providers_holiday_providers_3'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => PeruHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'PY',
+    name: TranslationService.instance.tr('providers_holiday_providers_4'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => ParaguayHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'CO',
+    name: TranslationService.instance.tr('providers_holiday_providers_5'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => ColombiaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'GF',
+    name: TranslationService.instance.tr('providers_holiday_providers_6'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => FrenchGuianaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'SR',
+    name: TranslationService.instance.tr('providers_holiday_providers_7'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => SurinameHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'GY',
+    name: TranslationService.instance.tr('providers_holiday_providers_8'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => GuyanaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'ES',
+    name: TranslationService.instance.tr('providers_holiday_providers_10'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => SpainHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'RU',
+    name: TranslationService.instance.tr('providers_holiday_providers_11'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => RussiaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'JP',
+    name: TranslationService.instance.tr('providers_holiday_providers_12'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => JapanHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'CN',
+    name: TranslationService.instance.tr('providers_holiday_providers_13'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => ChinaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'IN',
+    name: TranslationService.instance.tr('providers_holiday_providers_14'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => IndiaHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'UY',
+    name: TranslationService.instance.tr('providers_holiday_providers_15'),
+    getSubdivisions: () => [],
+    getHolidays: (year) => UruguayHolidayProvider.getHolidays(year),
+  ),
+  CountryConfig(
+    code: 'US',
+    name: TranslationService.instance.tr('providers_holiday_providers_17'),
+    getSubdivisions: () => UnitedStatesSubdivisionProvider.getAll(),
+    getHolidays: (year) => UnitedStatesHolidayProvider.getHolidays(year),
+  ),
 ];
 
 final List<ReligionConfig> religionConfigs = [
   ReligionConfig(
     code: 'catholic',
-    name: 'Católico',
+    name: TranslationService.instance.tr('providers_holiday_providers_16'),
     getAllHolidays: (year) => CatholicHolidayProvider.getHolidays(year),
   ),
   // adicionar novos ReligionConfig aqui
@@ -219,10 +325,10 @@ final holidayNamesByDateProvider =
       db.feriadoToggle.feriadoId.equalsExp(db.feriado.id),
     ),
   ])
-        ..where(db.feriadoToggle.isEnabled.equals(true))
-        ..where(db.feriado.data.equals(date)))
-      .map((row) => row.readTable(db.feriado).nome)
-      .get();
+    ..where(db.feriadoToggle.isEnabled.equals(true))
+    ..where(db.feriado.data.equals(date)))
+  .map((row) => row.readTable(db.feriado).nome)
+  .get();
 
   return rows;
 });

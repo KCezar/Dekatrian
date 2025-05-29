@@ -44,8 +44,10 @@ dependencies:
   sqlite3_flutter_libs: ^0.5.32
   path_provider: ^2.1.5
   sqlite3: ^2.7.5
-  csv: ^5.0.0
-  file_picker: ^5.2.0
+  csv: ^6.0.0
+  file_picker: ^10.1.9
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -62,13 +64,24 @@ dev_dependencies:
   custom_lint: ^0.7.5
   riverpod_lint: ^2.6.5
   drift_dev: ^2.26.1
+  flutter_launcher_icons: ^0.14.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+flutter_launcher_icons:
+  android: true        # gera ícones para Android
+  ios: true            # gera ícones para iOS
+  image_path: "assets/images/New_Dekatrian_Icon.ico"  # seu arquivo PNG quadrado
+  windows:
+    generate: true
+    image_path: "assets/images/New_Dekatrian_Icon.ico"
+    icon_size: 128  # opcional: entre 48 e 256, padrão 48
+
 # The following section is specific to Flutter packages.
 flutter:
-
+  # ativa o gerador de localizações do Flutter
+  generate: true
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -84,6 +97,7 @@ flutter:
     - assets/images/Windows.xcf
     - assets/images/Windows32.png
     - assets/images/Windows64.png
+    - lib/l10n/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -110,3 +124,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+l10n:
+  arb-dir: lib/l10n
+  template-arb-file: app_en.arb
+  output-localization-file: app_localizations.dart

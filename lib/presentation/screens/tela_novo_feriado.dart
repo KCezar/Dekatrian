@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:dekatrian/domain/models/holiday_preference.dart';
 import 'package:dekatrian/providers/holiday_providers.dart';
+import '../../l10n/app_localizations.dart';
 
 class TelaNovoFeriado extends ConsumerStatefulWidget {
   final HolidayPreference? preference;
@@ -52,7 +53,7 @@ class _TelaNovoFeriadoState extends ConsumerState<TelaNovoFeriado>
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Novo Feriado'),
+        title: Text(AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_0),
         backgroundColor: const Color(0xFF6200EA),
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(120),
@@ -63,7 +64,7 @@ class _TelaNovoFeriadoState extends ConsumerState<TelaNovoFeriado>
                 child: TextField(
                   decoration: InputDecoration(
                     prefixIcon: const Icon(Icons.search),
-                    hintText: 'Search',
+                    hintText: AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_1,
                     filled: true,
                     fillColor: Colors.white,
                     border: OutlineInputBorder(
@@ -79,10 +80,10 @@ class _TelaNovoFeriadoState extends ConsumerState<TelaNovoFeriado>
                 labelColor: Colors.black,
                 unselectedLabelColor: Colors.black54,
                 indicatorColor: Colors.white,
-                tabs: const [
-                  Tab(text: 'País'),
-                  Tab(text: 'Região'),
-                  Tab(text: 'Religião'),
+                tabs: [
+                  Tab(text: AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_2),
+                  Tab(text: AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_3),
+                  Tab(text: AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_4),
                 ],
               ),
             ],
@@ -134,15 +135,17 @@ class _TelaNovoFeriadoState extends ConsumerState<TelaNovoFeriado>
               ? () async {
                   await saveHolidayPreferences(ref,
                     preferenceId: widget.preference?.id,);
+                  // Atualiza o provider de feriados habilitados
+                  ref.refresh(enabledHolidayDatesProvider);
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('Preferências salvas com sucesso!'),
+                    SnackBar(
+                      content: Text(AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_5),
                     ),
                   );
                   Navigator.of(context).pop(true);
                 }
               : null,
-          child: const Text('Salvar'),
+          child: Text(AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_6),
         ),
       ),
     );
@@ -186,7 +189,7 @@ class _TelaNovoFeriadoState extends ConsumerState<TelaNovoFeriado>
       padding: const EdgeInsets.all(12),
       children: [
         RadioListTile<String?>(
-          title: const Text('Nenhuma'),
+          title: Text(AppLocalizations.of(context)!.presentation_screens_tela_novo_feriado_7),
           value: null,
           groupValue: selected,
           onChanged: onChanged,

@@ -1,6 +1,6 @@
 // lib/presentation/screens/tela_desenvolvimento.dart
 import 'package:flutter/gestures.dart'; // para TapGestureRecognizer
-
+import '../../l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -44,7 +44,7 @@ class TelaDesenvolvimento extends ConsumerWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Informações Desenvolvimento',
+                  AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_0,
                   style: Theme.of(context).textTheme.headlineSmall,
                 ),
                 const SizedBox(height: 16),
@@ -53,9 +53,9 @@ class TelaDesenvolvimento extends ConsumerWidget {
                   text: TextSpan(
                     style: Theme.of(context).textTheme.bodyMedium,
                     children: [
-                      const TextSpan(
+                      TextSpan(
                           text:
-                              'Este programa está sendo desenvolvido por '),
+                              AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_1),
                       TextSpan(
                         text: 'Kéfren Cezar',
                         style: _linkStyle,
@@ -63,9 +63,9 @@ class TelaDesenvolvimento extends ConsumerWidget {
                           ..onTap = () => _launchUrl(
                               'https://x.com/KefrenCezar'),
                       ),
-                      const TextSpan(
+                      TextSpan(
                           text:
-                              '. Para críticas, sugestões e contatos envie um email para '),
+                              AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_2),
                       TextSpan(
                         text: 'kefren.cezar.c@gmail.com',
                         style: _linkStyle,
@@ -78,12 +78,11 @@ class TelaDesenvolvimento extends ConsumerWidget {
                   ),
                 ),
 
-                const Text(
-                  "Este programa foi inspirado no app Dekatrian, desenvolvido em python por Lario Diniz,  " + 
-                  " excelente aplicação, muito bem escrita."),
+                Text(
+                  AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_3),
                Row(
                   children: [
-                    const Text('Repositório: '),
+                    Text(AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_4),
                     GestureDetector(
                       onTap: () => _launchUrl(
                           'https://github.com/lariodiniz/Dekatrian'),
@@ -95,16 +94,14 @@ class TelaDesenvolvimento extends ConsumerWidget {
                   ],
                 ),
                 const SizedBox(height: 8),
-                const Text(
-                  "Um belo dia troquei de celular e o mesmo aplicativo não estava mais disponível na loja Playstore, então resolvi fazer uma versão em Flutter.\n\n" +
-                  "Agradeço ao Lario Diniz pela inspiração e pelo código fonte do Dekatrian, que me ajudou a entender como funciona o calendário Dekatrian.\n\n" +
-                  " Farei o mesmo que Lario e deixarei o projeto na licença MIT, para quem quiser usar o código fonte do Dekatrian para estudar ou criar sua própria versão.\n\n"
+                Text(
+                  AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_5
                 ),
                 const SizedBox(height: 8),
 
                 Row(
                   children: [
-                    const Text('Repositório: '),
+                    Text(AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_4),
                     GestureDetector(
                       onTap: () => _launchUrl(
                           'https://github.com/KCezar/Dekatrian'),
@@ -118,12 +115,12 @@ class TelaDesenvolvimento extends ConsumerWidget {
                 const SizedBox(height: 8),
 
                 Text(
-                  'Versão da Aplicação: $version',
+                  AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_6(version),
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 8),
 
-                const Text('Tecnologias utilizadas no desenvolvimento:'),
+                Text(AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_7),
                 const Text('• Flutter 3.13.0'),
                 const Text('• Riverpod 2.0.0')
               ],

@@ -1,3 +1,4 @@
+import '/domain/models/observed_ruleSet.dart';
 import '/domain/models/holiday_type.dart';
 
 class HolidaySpecification {
@@ -6,6 +7,7 @@ class HolidaySpecification {
   final String localName;
   final List<HolidayType> holidayTypes;
   final List<String>? subdivisionCodes;
+  final ObservedRuleSet? observedRuleSet;
 
   HolidaySpecification({
     required this.date,
@@ -13,5 +15,6 @@ class HolidaySpecification {
     required this.localName,
     required this.holidayTypes,
     this.subdivisionCodes,
+    this.observedRuleSet,
   });
 }

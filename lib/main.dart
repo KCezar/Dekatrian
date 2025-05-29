@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'l10n/app_localizations.dart';
+import 'dart:ui' show PlatformDispatcher;
 
 import 'presentation/screens/tela_inicial.dart';
 import 'presentation/screens/tela_dekatrian.dart';
@@ -8,8 +11,13 @@ import 'presentation/screens/tela_configuracoes.dart';
 import 'presentation/screens/tela_feriados.dart';
 import 'presentation/screens/tela_novo_feriado.dart';
 import 'providers/app_providers.dart';
+import 'package:dekatrian/application/services/translation_service.dart';
 
-void main() {
+final deviceLocale = PlatformDispatcher.instance.locale;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await TranslationService.instance.loadLocale(deviceLocale);
   runApp(
     const ProviderScope(  // habilita Riverpod
       child: DekatrianApp(),
@@ -35,7 +43,25 @@ class DekatrianApp extends ConsumerWidget {
     ];
 
     return MaterialApp(
-      title: 'Calendário Dekatrian v1.1.0',
+      locale: deviceLocale,
+      localeResolutionCallback: (locale, supportedLocales) {
+        if (locale != null) {
+          // recarrega o ARB do TranslationService quando o usuário muda de idioma
+          TranslationService.instance.loadLocale(locale);
+        }
+        return locale;
+      },
+      title: TranslationService.instance.tr("main_title"),
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: [
+        Locale('en'),
+        Locale('pt'),
+      ],
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -46,7 +72,7 @@ class DekatrianApp extends ConsumerWidget {
       },
       home: Scaffold(
         appBar: AppBar(
-          title: Text(_titleForIndex(currentIndex)),
+          title: Text(_titleForIndex(currentIndex,context)),
         ),
         body: screens[currentIndex],
         bottomNavigationBar: BottomNavigationBar(
@@ -56,22 +82,22 @@ class DekatrianApp extends ConsumerWidget {
           selectedItemColor: Colors.white,                   // ícone e label selecionados em branco
           unselectedItemColor: Colors.white70,               // ícones “off” em branco translúcido
           onTap: (idx) => ref.read(screenIndexProvider.notifier).state = idx,
-          items: const [
+          items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: 'Inicial',
+              label: TranslationService.instance.tr("main_0"),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.calendar_today),
-              label: 'Dekatrian',
+              label: TranslationService.instance.tr("main_1"),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.developer_mode),
-              label: 'Dev',
+              label: TranslationService.instance.tr("main_2"),
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.settings),
-              label: 'Configurações',
+              label: TranslationService.instance.tr("main_3"),
             )
           ],
         ),
@@ -79,16 +105,16 @@ class DekatrianApp extends ConsumerWidget {
     );
   }
 
-  String _titleForIndex(int idx) {
+  String _titleForIndex(int idx,context) {
     switch (idx) {
       case 0:
-        return 'Uma Breve História';
+        return TranslationService.instance.tr("main_4");
       case 1:
-        return 'Calendário';
+        return TranslationService.instance.tr("main_5");
       case 2:
-        return 'Desenvolvimento';
+        return TranslationService.instance.tr("main_6");
       default:
-        return 'Calendário Dekatrian';
+        return TranslationService.instance.tr("main_7");
     }
   }
 }

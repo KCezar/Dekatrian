@@ -1,5 +1,6 @@
 import 'package:dekatrian/domain/models/holiday_specification.dart';
 import 'package:dekatrian/domain/models/holiday_type.dart';
+import 'package:dekatrian/application/services/translation_service.dart';
 
 /// Conjunto de feriados do calendário católico, semelhantes ao provider do Nager.Date
 class CatholicHolidayProvider {
@@ -33,9 +34,9 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Maundy Thursday',
-      localName: 'Quinta-feira Santa',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_0'),
       holidayTypes: [HolidayType.Religious],
-      subdivisionCodes: ['BR'],
+      subdivisionCodes: ['BR','PE'],
     );
   }
 
@@ -45,9 +46,9 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Good Friday',
-      localName: 'Sexta-feira Santa',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_1'),
       holidayTypes: [HolidayType.Religious],
-      subdivisionCodes: ['BR'],
+      subdivisionCodes: ['AR','BR', "US-CT", "US-DE", "US-HI", "US-IN", "US-KY", "US-LA", "US-NC", "US-ND", "US-NJ", "US-TN", "US-TX"],
     );
   }
 
@@ -57,7 +58,7 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Easter Sunday',
-      localName: 'Domingo de Páscoa',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_2'),
       holidayTypes: [HolidayType.Religious],
       subdivisionCodes: ['BR'],
     );
@@ -69,7 +70,7 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Easter Monday',
-      localName: 'Segunda-feira de Páscoa',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_3'),
       holidayTypes: [HolidayType.Religious],
       subdivisionCodes: ['BR'],
     );
@@ -81,9 +82,9 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Ascension Day',
-      localName: 'Ascensão do Senhor',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_4'),
       holidayTypes: [HolidayType.Religious],
-      subdivisionCodes: ['BR'],
+      subdivisionCodes: ['CO','PT','GF'],
     );
   }
 
@@ -93,9 +94,9 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Pentecost',
-      localName: 'Pentecostes',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_5'),
       holidayTypes: [HolidayType.Religious],
-      subdivisionCodes: ['BR'],
+      subdivisionCodes: ['BR','GF'],
     );
   }
 
@@ -105,9 +106,9 @@ class CatholicHolidayProvider {
     return HolidaySpecification(
       date: date,
       englishName: 'Corpus Christi',
-      localName: 'Corpus Christi',
+      localName: TranslationService.instance.tr('providers_religion_catholic_providers_6'),
       holidayTypes: [HolidayType.Religious],
-      subdivisionCodes: ['BR'],
+      subdivisionCodes: ['BR','CO'],
     );
   }
 
@@ -115,9 +116,9 @@ class CatholicHolidayProvider {
      return HolidaySpecification(
         date: DateTime(year, 11, 2),
         englishName: "All Souls' Day",
-        localName: "Dia de Finados",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_7"),
         holidayTypes: [HolidayType.Religious],
-        subdivisionCodes: ['BR'],
+        subdivisionCodes: ['BR','BO','UY'],
       );
   }
 
@@ -125,7 +126,7 @@ class CatholicHolidayProvider {
         return HolidaySpecification(
           date: DateTime(year, 10, 12),
           englishName: "Our Lady of Aparecida",
-          localName: "Nossa Senhora Aparecida",
+          localName: TranslationService.instance.tr("providers_religion_catholic_providers_8"),
           holidayTypes: [HolidayType.Religious],
           subdivisionCodes: ['BR'],
         );
@@ -135,9 +136,9 @@ class CatholicHolidayProvider {
         return HolidaySpecification(
           date: DateTime(year, 12, 25),
           englishName: "Christmas Day",
-          localName: "Natal",
+          localName: TranslationService.instance.tr("providers_religion_catholic_providers_9"),
           holidayTypes: [HolidayType.Religious],
-          subdivisionCodes: ['BR'],
+          subdivisionCodes: ['AR','BR','BO','GF','GY','PE','PY','UY','US','SR'],
         );
   }
 
@@ -145,26 +146,127 @@ class CatholicHolidayProvider {
         return HolidaySpecification(
           date: DateTime(year, 9, 8),
           englishName: "Our Lady of Vitoria",
-          localName: "Nossa Senhora da Vitória",
+          localName: TranslationService.instance.tr("providers_religion_catholic_providers_10"),
           holidayTypes: [HolidayType.Religious],
           subdivisionCodes: ['BR-ES-VIX'],
         );
   }
 
+  static HolidaySpecification immaculateConceptionDay(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 12, 8),
+        englishName: "Immaculate Conception Day",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_11"),
+        subdivisionCodes: ['AR','CO','PE'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+  static HolidaySpecification epiphany(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 1, 6),
+        englishName: "Epiphany",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_12"),
+        subdivisionCodes: ['CO','ES'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+  static HolidaySpecification saintJosephDay(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 3, 19),
+        englishName: "Saint Joseph's Day",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_13"),
+        subdivisionCodes: ['CO'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+  static HolidaySpecification sacredHeart(int year) {
+        return HolidaySpecification(
+        date: easterSunday(year).add(const Duration(days: 680)),
+        englishName: "Sacred Heart",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_14"),
+        subdivisionCodes: ['CO'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+  static HolidaySpecification saintPeterSaintPaul(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 6, 29),
+        englishName: "Saint Peter and Saint Paul",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_15"),
+        subdivisionCodes: ['CO','PE'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+  static HolidaySpecification assumptionDay(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 8, 15),
+        englishName: "Assumption Day",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_16"),
+        subdivisionCodes: ['CO','GF'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+  static HolidaySpecification allSaintsDay(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 11, 1),
+        englishName: "All Saints' Day",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_17"),
+        subdivisionCodes: ['CO','GF','PE','ES'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
+
+  static HolidaySpecification virginCaacupe(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 12, 8),
+        englishName: "Virgin of Caacupé",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_18"),
+        subdivisionCodes: ['PY'],
+        holidayTypes: [HolidayType.Public],
+      );
+  }
+
+  static HolidaySpecification santaRosaLima(int year) {
+        return HolidaySpecification(
+        date: DateTime(year, 8, 30),
+        englishName: "Santa Rosa de Lima",
+        localName: TranslationService.instance.tr("providers_religion_catholic_providers_19"),
+        subdivisionCodes: ['PE'],
+        holidayTypes: [HolidayType.Public, HolidayType.Religious], // feriado religioso
+      );
+  }
+
   /// Retorna todos os feriados católicos para o ano
   static List<HolidaySpecification> getHolidays(int year) {
     return [
-      maundyThursday(year),
-      goodFriday(year),
-      easterSundayHoliday(year),
-      easterMonday(year),
-      ascensionDay(year),
-      pentecost(year),
-      corpusChristi(year),
-      allSoulsDay(year),
-      christmasDay(year),
-      ourLadyAparecida(year),
-      ourLadyVitoria(year),
+        allSaintsDay(year),
+        allSoulsDay(year),
+        ascensionDay(year),
+        assumptionDay(year),
+        christmasDay(year),
+        corpusChristi(year),
+        easterMonday(year),
+        easterSundayHoliday(year),
+        epiphany(year),
+        goodFriday(year),
+        immaculateConceptionDay(year),
+        maundyThursday(year),
+        ourLadyAparecida(year),
+        ourLadyVitoria(year),
+        pentecost(year),
+        sacredHeart(year),
+        saintJosephDay(year),
+        saintPeterSaintPaul(year),
+        santaRosaLima(year),
+        virginCaacupe(year),
+      // Feriados católicos adicionais
     ];
   }
 }

@@ -8,6 +8,7 @@ import 'package:dekatrian/providers/app_providers.dart';
 import 'package:dekatrian/presentation/widgets/area_calendario.dart';
 import 'package:dekatrian/presentation/widgets/area_meses.dart';
 import 'package:dekatrian/presentation/widgets/area_anos.dart';
+import '../../l10n/app_localizations.dart';
 
 /// Tela inicial: exibe data lunar + gregoriana, botão de “Dia/Mês/Ano”,
 /// o calendário lunar e o painel secundário (meses ou anos).
@@ -67,7 +68,7 @@ class TelaInicial extends ConsumerWidget {
                           .read(secondaryContentProvider.notifier)
                           .state = SecondaryTab.none;
                     },
-                    child: const Text('Dia'),
+                    child: Text(AppLocalizations.of(context)!.presentation_screens_tela_inicial_0),
                   ),
                   const SizedBox(width: 12),
                   ElevatedButton(
@@ -77,7 +78,7 @@ class TelaInicial extends ConsumerWidget {
                           .read(secondaryContentProvider.notifier)
                           .state = SecondaryTab.months;
                     },
-                    child: const Text('Mês'),
+                    child: Text(AppLocalizations.of(context)!.presentation_screens_tela_inicial_1),
                   ),
                   const SizedBox(width: 12),
                   ElevatedButton(
@@ -87,7 +88,7 @@ class TelaInicial extends ConsumerWidget {
                           .read(secondaryContentProvider.notifier)
                           .state = SecondaryTab.years;
                     },
-                    child: const Text('Ano'),
+                    child: Text(AppLocalizations.of(context)!.presentation_screens_tela_inicial_2),
                   ),
                 ],
               ),

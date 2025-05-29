@@ -1,5 +1,4 @@
-// lib/domain/models/lunar_date.dart
-
+import 'package:dekatrian/application/services/translation_service.dart';
 /// Modelo puro que representa uma data lunar
 /// Possui getter para obter o nome do mês a partir de uma paleta fixa de 13 nomes.
 class LunarDate {
@@ -34,7 +33,7 @@ class LunarDate {
   /// Nome do mês lunar conforme o índice
   String get lunarMonthName {
     if (monthIndex < 0 || monthIndex >= _lunarMonthNames.length) {
-      return 'Feriado';
+      return TranslationService.instance.tr('domain_models_lunar_date_0');
     }
     return _lunarMonthNames[monthIndex];
   }

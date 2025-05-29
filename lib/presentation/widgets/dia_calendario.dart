@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:dekatrian/providers/calendar_providers.dart';
 import '../../application/services/lunar_calendar_service.dart';
 import 'package:dekatrian/providers/holiday_providers.dart';
+import '../../l10n/app_localizations.dart';
 
 /// Um botão que representa UM dia do mês (1..28)
 /// Pinta a coluna conforme o dia da semana, destaca o dia "hoje"
@@ -94,8 +95,8 @@ class DiaCalendario extends ConsumerWidget {
         if (isWeekend) {
           msgs.add(
             greg.weekday == DateTime.saturday
-                ? 'Sábado  - (F)inal de (S)emana'
-                : 'Domingo - (F)inal de (S)emana',
+                ? AppLocalizations.of(context)!.presentation_widgets_dia_calendario_0
+                : AppLocalizations.of(context)!.presentation_widgets_dia_calendario_1,
           );
         }
         // busca nomes de feriado e atualiza provider
@@ -109,7 +110,7 @@ class DiaCalendario extends ConsumerWidget {
                 .read(selectedDayMessagesProvider.notifier)
                 .state = [
                   ...msgs,
-                  ...names.map((n) => '(FE)riado: $n'),
+                  ...names.map((n) => AppLocalizations.of(context)!.presentation_widgets_dia_calendario_2(n)),
                 ];
             });
         } else {
@@ -149,7 +150,7 @@ class DiaCalendario extends ConsumerWidget {
                   child: Transform.translate(
                     offset: const Offset(2, -6),
                     child: Text(
-                      'FS',
+                      AppLocalizations.of(context)!.presentation_widgets_dia_calendario_3,
                       style: TextStyle(
                         fontSize: 8,
                         color: Colors.black,
@@ -164,7 +165,7 @@ class DiaCalendario extends ConsumerWidget {
                   child: Transform.translate(
                     offset: const Offset(2, 6),
                     child: Text(
-                      'FE',
+                      AppLocalizations.of(context)!.presentation_widgets_dia_calendario_4,
                       style: TextStyle(
                         fontSize: 8,
                         color: const Color.fromARGB(255, 0, 0, 0),
