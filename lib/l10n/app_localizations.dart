@@ -240,6 +240,12 @@ abstract class AppLocalizations {
   /// **'This app is being developed by '**
   String get presentation_screens_tela_desenvolvimento_1;
 
+  /// Este aplicativo está sendo mantido e distribuído pela empresa
+  ///
+  /// In en, this message translates to:
+  /// **'. This application is maintained and distributed by the company '**
+  String get presentation_screens_tela_desenvolvimento_1_1;
+
   /// . Para críticas, sugestões e contatos envie um email para
   ///
   /// In en, this message translates to:
@@ -1410,71 +1416,209 @@ abstract class AppLocalizations {
   /// **'Carnival'**
   String get providers_country_uruguay_holiday_providers_12;
 
-  /// Quinta-feira Santa
+  /// Dia de Ano Novo
   ///
   /// In en, this message translates to:
-  /// **'Maundy Thursday'**
+  /// **'New Year\'s Day'**
+  String get providers_country_united_states_holiday_providers_0;
+
+  /// Dia de Martin Luther King Jr.
+  ///
+  /// In en, this message translates to:
+  /// **'Martin Luther King, Jr. Day'**
+  String get providers_country_united_states_holiday_providers_1;
+
+  /// Dia dos Presidentes
+  ///
+  /// In en, this message translates to:
+  /// **'Presidents\' Day'**
+  String get providers_country_united_states_holiday_providers_2;
+
+  /// Dia da Memória
+  ///
+  /// In en, this message translates to:
+  /// **'Memorial Day'**
+  String get providers_country_united_states_holiday_providers_3;
+
+  /// Dia da Independência Nacional de Juneteenth
+  ///
+  /// In en, this message translates to:
+  /// **'Juneteenth National Independence Day'**
+  String get providers_country_united_states_holiday_providers_4;
+
+  /// Dia da Independência
+  ///
+  /// In en, this message translates to:
+  /// **'Independence Day'**
+  String get providers_country_united_states_holiday_providers_5;
+
+  /// Dia do Trabalho
+  ///
+  /// In en, this message translates to:
+  /// **'Labor Day'**
+  String get providers_country_united_states_holiday_providers_6;
+
+  /// Dia de Colombo
+  ///
+  /// In en, this message translates to:
+  /// **'Columbus Day'**
+  String get providers_country_united_states_holiday_providers_7;
+
+  /// Dia dos Veteranos
+  ///
+  /// In en, this message translates to:
+  /// **'Veterans Day'**
+  String get providers_country_united_states_holiday_providers_8;
+
+  /// Dia de Ação de Graças
+  ///
+  /// In en, this message translates to:
+  /// **'Thanksgiving Day'**
+  String get providers_country_united_states_holiday_providers_9;
+
+  /// Dia de Natal
+  ///
+  /// In en, this message translates to:
+  /// **'Christmas Day'**
+  String get providers_country_united_states_holiday_providers_10;
+
+  /// Dia de Truman
+  ///
+  /// In en, this message translates to:
+  /// **'Truman Day'**
+  String get providers_country_united_states_holiday_providers_11;
+
+  /// Dia dos Povos Indígenas
+  ///
+  /// In en, this message translates to:
+  /// **'Indigenous Peoples Day'**
+  String get providers_country_united_states_holiday_providers_12;
+
+  /// Aniversário de Lincoln
+  ///
+  /// In en, this message translates to:
+  /// **'Lincoln\'s Birthday'**
+  String get providers_country_united_states_holiday_providers_13;
+
+  /// Dia de Todos os Santos
+  ///
+  /// In en, this message translates to:
+  /// **'All Saints\' Day'**
   String get providers_religion_catholic_providers_0;
 
-  /// Sexta-feira Santa
+  /// Dia de Finados
   ///
   /// In en, this message translates to:
-  /// **'Good Friday'**
+  /// **'All Souls\' Day'**
   String get providers_religion_catholic_providers_1;
 
-  /// Domingo de Páscoa
+  /// Ascensão
   ///
   /// In en, this message translates to:
-  /// **'Easter Sunday'**
+  /// **'Ascension Day'**
   String get providers_religion_catholic_providers_2;
 
-  /// Segunda-feira de Páscoa
+  /// Assunção de Maria
   ///
   /// In en, this message translates to:
-  /// **'Easter Monday'**
+  /// **'Assumption Day'**
   String get providers_religion_catholic_providers_3;
 
-  /// Ascensão do Senhor
+  /// Natal
   ///
   /// In en, this message translates to:
-  /// **'Ascension of the Lord'**
+  /// **'Christmas Day'**
   String get providers_religion_catholic_providers_4;
-
-  /// Pentecostes
-  ///
-  /// In en, this message translates to:
-  /// **'Pentecost'**
-  String get providers_religion_catholic_providers_5;
 
   /// Corpus Christi
   ///
   /// In en, this message translates to:
   /// **'Corpus Christi'**
-  String get providers_religion_catholic_providers_6;
+  String get providers_religion_catholic_providers_5;
 
-  /// Dia de Finados
+  /// Segunda-feira de Páscoa
   ///
   /// In en, this message translates to:
-  /// **'All Souls’ Day'**
+  /// **'Easter Monday'**
+  String get providers_religion_catholic_providers_6;
+
+  /// Domingo de Páscoa
+  ///
+  /// In en, this message translates to:
+  /// **'Easter Sunday'**
   String get providers_religion_catholic_providers_7;
 
-  /// Nossa Senhora Aparecida, Aparecida é nome proprio
+  /// Dia de Reis
+  ///
+  /// In en, this message translates to:
+  /// **'Epiphany'**
+  String get providers_religion_catholic_providers_8;
+
+  /// Sexta-feira Santa
+  ///
+  /// In en, this message translates to:
+  /// **'Good Friday'**
+  String get providers_religion_catholic_providers_9;
+
+  /// Imaculada Conceição
+  ///
+  /// In en, this message translates to:
+  /// **'Immaculate Conception Day'**
+  String get providers_religion_catholic_providers_10;
+
+  /// Quinta-feira Santa
+  ///
+  /// In en, this message translates to:
+  /// **'Maundy Thursday'**
+  String get providers_religion_catholic_providers_11;
+
+  /// Nossa Senhora Aparecida
   ///
   /// In en, this message translates to:
   /// **'Our Lady of Aparecida'**
-  String get providers_religion_catholic_providers_8;
+  String get providers_religion_catholic_providers_12;
 
-  /// Natal
+  /// Nossa Senhora da Vitória
   ///
   /// In en, this message translates to:
-  /// **'Christmas'**
-  String get providers_religion_catholic_providers_9;
+  /// **'Our Lady of Vitoria'**
+  String get providers_religion_catholic_providers_13;
 
-  /// Nossa Senhora da Vitória, Vitória é nome proprio
+  /// Pentecostes
   ///
   /// In en, this message translates to:
-  /// **'Our Lady of Victory'**
-  String get providers_religion_catholic_providers_10;
+  /// **'Pentecost'**
+  String get providers_religion_catholic_providers_14;
+
+  /// Sagrado Coração
+  ///
+  /// In en, this message translates to:
+  /// **'Sacred Heart'**
+  String get providers_religion_catholic_providers_15;
+
+  /// São José
+  ///
+  /// In en, this message translates to:
+  /// **'Saint Joseph\'s Day'**
+  String get providers_religion_catholic_providers_16;
+
+  /// São Pedro e São Paulo
+  ///
+  /// In en, this message translates to:
+  /// **'Saint Peter and Saint Paul'**
+  String get providers_religion_catholic_providers_17;
+
+  /// Santa Rosa de Lima
+  ///
+  /// In en, this message translates to:
+  /// **'Santa Rosa de Lima'**
+  String get providers_religion_catholic_providers_18;
+
+  /// Virgem de Caacupé
+  ///
+  /// In en, this message translates to:
+  /// **'Virgin of Caacupé'**
+  String get providers_religion_catholic_providers_19;
 
   /// Brasil
   ///
@@ -1571,6 +1715,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Catholic'**
   String get providers_holiday_providers_16;
+
+  /// Estados Unidos da América
+  ///
+  /// In en, this message translates to:
+  /// **'United States of America'**
+  String get providers_holiday_providers_17;
 }
 
 class _AppLocalizationsDelegate

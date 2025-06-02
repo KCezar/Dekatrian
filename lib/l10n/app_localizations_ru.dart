@@ -84,6 +84,10 @@ class AppLocalizationsRu extends AppLocalizations {
       'Это приложение разрабатывается ';
 
   @override
+  String get presentation_screens_tela_desenvolvimento_1_1 =>
+      '. Это приложение поддерживается и распространяется компанией ';
+
+  @override
   String get presentation_screens_tela_desenvolvimento_2 =>
       '. Для отзывов или контактов пишите на почту ';
 
@@ -770,40 +774,128 @@ class AppLocalizationsRu extends AppLocalizations {
   String get providers_country_uruguay_holiday_providers_12 => 'Карнавал';
 
   @override
-  String get providers_religion_catholic_providers_0 => 'Страстной четверг';
+  String get providers_country_united_states_holiday_providers_0 => 'Новый год';
 
   @override
-  String get providers_religion_catholic_providers_1 => 'Страстная пятница';
+  String get providers_country_united_states_holiday_providers_1 =>
+      'День Мартина Лютера Кинга-младшего';
 
   @override
-  String get providers_religion_catholic_providers_2 =>
-      'Пасхальное воскресенье';
+  String get providers_country_united_states_holiday_providers_2 =>
+      'День президентов';
 
   @override
-  String get providers_religion_catholic_providers_3 =>
+  String get providers_country_united_states_holiday_providers_3 =>
+      'День памяти';
+
+  @override
+  String get providers_country_united_states_holiday_providers_4 =>
+      'Национальный день независимости Джунтина';
+
+  @override
+  String get providers_country_united_states_holiday_providers_5 =>
+      'День независимости';
+
+  @override
+  String get providers_country_united_states_holiday_providers_6 =>
+      'День труда';
+
+  @override
+  String get providers_country_united_states_holiday_providers_7 =>
+      'День Колумба';
+
+  @override
+  String get providers_country_united_states_holiday_providers_8 =>
+      'День ветеранов';
+
+  @override
+  String get providers_country_united_states_holiday_providers_9 =>
+      'День благодарения';
+
+  @override
+  String get providers_country_united_states_holiday_providers_10 =>
+      'Рождество';
+
+  @override
+  String get providers_country_united_states_holiday_providers_11 =>
+      'День Трумэна';
+
+  @override
+  String get providers_country_united_states_holiday_providers_12 =>
+      'День коренных народов';
+
+  @override
+  String get providers_country_united_states_holiday_providers_13 =>
+      'День рождения Линкольна';
+
+  @override
+  String get providers_religion_catholic_providers_0 => 'День всех святых';
+
+  @override
+  String get providers_religion_catholic_providers_1 =>
+      'День поминания усопших';
+
+  @override
+  String get providers_religion_catholic_providers_2 => 'День Вознесения';
+
+  @override
+  String get providers_religion_catholic_providers_3 => 'Успение Богородицы';
+
+  @override
+  String get providers_religion_catholic_providers_4 => 'Рождество';
+
+  @override
+  String get providers_religion_catholic_providers_5 => 'Тело Христово';
+
+  @override
+  String get providers_religion_catholic_providers_6 =>
       'Пасхальный понедельник';
 
   @override
-  String get providers_religion_catholic_providers_4 => 'Вознесение Господне';
+  String get providers_religion_catholic_providers_7 =>
+      'Пасхальное воскресенье';
 
   @override
-  String get providers_religion_catholic_providers_5 => 'Пятидесятница';
+  String get providers_religion_catholic_providers_8 => 'Богоявление';
 
   @override
-  String get providers_religion_catholic_providers_6 => 'Тело Христово';
+  String get providers_religion_catholic_providers_9 => 'Страстная пятница';
 
   @override
-  String get providers_religion_catholic_providers_7 => 'День всех усопших';
+  String get providers_religion_catholic_providers_10 =>
+      'Праздник непорочного зачатия';
 
   @override
-  String get providers_religion_catholic_providers_8 =>
-      'Наша Сеньора Апаресида';
+  String get providers_religion_catholic_providers_11 => 'Чистый четверг';
 
   @override
-  String get providers_religion_catholic_providers_9 => 'Рождество';
+  String get providers_religion_catholic_providers_12 =>
+      'День Nossa Senhora Aparecida';
 
   @override
-  String get providers_religion_catholic_providers_10 => 'Наша Сеньора Победы';
+  String get providers_religion_catholic_providers_13 =>
+      'День Nossa Senhora da Vitória';
+
+  @override
+  String get providers_religion_catholic_providers_14 => 'Пятидесятница';
+
+  @override
+  String get providers_religion_catholic_providers_15 =>
+      'Праздник Святого Сердца';
+
+  @override
+  String get providers_religion_catholic_providers_16 => 'День Святого Иосифа';
+
+  @override
+  String get providers_religion_catholic_providers_17 =>
+      'День Святого Петра и Павла';
+
+  @override
+  String get providers_religion_catholic_providers_18 =>
+      'День Санты-Розы-де-Лима';
+
+  @override
+  String get providers_religion_catholic_providers_19 => 'День Девы Какаупе';
 
   @override
   String get providers_holiday_providers_0 => 'Бразилия';
@@ -852,4 +944,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get providers_holiday_providers_16 => 'Католический';
+
+  @override
+  String get providers_holiday_providers_17 => 'Соединенные Штаты Америки';
 }

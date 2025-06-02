@@ -84,6 +84,10 @@ class AppLocalizationsEs extends AppLocalizations {
       'Este programa está siendo desarrollado por ';
 
   @override
+  String get presentation_screens_tela_desenvolvimento_1_1 =>
+      '. Esta aplicación está siendo mantenida y distribuida por la empresa ';
+
+  @override
   String get presentation_screens_tela_desenvolvimento_2 =>
       '. Para críticas, sugerencias y contactos envía un email a ';
 
@@ -790,40 +794,125 @@ class AppLocalizationsEs extends AppLocalizations {
   String get providers_country_uruguay_holiday_providers_12 => 'Carnaval';
 
   @override
-  String get providers_religion_catholic_providers_0 => 'Jueves Santo';
+  String get providers_country_united_states_holiday_providers_0 =>
+      'Día de Año Nuevo';
 
   @override
-  String get providers_religion_catholic_providers_1 => 'Viernes Santo';
+  String get providers_country_united_states_holiday_providers_1 =>
+      'Día de Martin Luther King Jr.';
 
   @override
-  String get providers_religion_catholic_providers_2 => 'Domingo de Pascua';
+  String get providers_country_united_states_holiday_providers_2 =>
+      'Día de los Presidentes';
 
   @override
-  String get providers_religion_catholic_providers_3 => 'Lunes de Pascua';
+  String get providers_country_united_states_holiday_providers_3 =>
+      'Día de los Caídos';
 
   @override
-  String get providers_religion_catholic_providers_4 => 'Ascensión del Señor';
+  String get providers_country_united_states_holiday_providers_4 =>
+      'Día Nacional de la Independencia de Juneteenth';
 
   @override
-  String get providers_religion_catholic_providers_5 => 'Pentecostés';
+  String get providers_country_united_states_holiday_providers_5 =>
+      'Día de la Independencia';
 
   @override
-  String get providers_religion_catholic_providers_6 => 'Corpus Christi';
+  String get providers_country_united_states_holiday_providers_6 =>
+      'Día del Trabajo';
 
   @override
-  String get providers_religion_catholic_providers_7 =>
+  String get providers_country_united_states_holiday_providers_7 =>
+      'Día de la Raza';
+
+  @override
+  String get providers_country_united_states_holiday_providers_8 =>
+      'Día de los Veteranos';
+
+  @override
+  String get providers_country_united_states_holiday_providers_9 =>
+      'Día de Acción de Gracias';
+
+  @override
+  String get providers_country_united_states_holiday_providers_10 => 'Navidad';
+
+  @override
+  String get providers_country_united_states_holiday_providers_11 =>
+      'Día de Truman';
+
+  @override
+  String get providers_country_united_states_holiday_providers_12 =>
+      'Día de los Pueblos Indígenas';
+
+  @override
+  String get providers_country_united_states_holiday_providers_13 =>
+      'Cumpleaños de Lincoln';
+
+  @override
+  String get providers_religion_catholic_providers_0 =>
+      'Día de Todos los Santos';
+
+  @override
+  String get providers_religion_catholic_providers_1 =>
       'Día de los Fieles Difuntos';
 
   @override
-  String get providers_religion_catholic_providers_8 =>
-      'Nuestra Señora Aparecida';
+  String get providers_religion_catholic_providers_2 => 'Día de la Ascensión';
 
   @override
-  String get providers_religion_catholic_providers_9 => 'Navidad';
+  String get providers_religion_catholic_providers_3 => 'Día de la Asunción';
+
+  @override
+  String get providers_religion_catholic_providers_4 => 'Navidad';
+
+  @override
+  String get providers_religion_catholic_providers_5 => 'Corpus Christi';
+
+  @override
+  String get providers_religion_catholic_providers_6 => 'Lunes de Pascua';
+
+  @override
+  String get providers_religion_catholic_providers_7 => 'Domingo de Pascua';
+
+  @override
+  String get providers_religion_catholic_providers_8 => 'Epifanía';
+
+  @override
+  String get providers_religion_catholic_providers_9 => 'Viernes Santo';
 
   @override
   String get providers_religion_catholic_providers_10 =>
+      'Día de la Inmaculada Concepción';
+
+  @override
+  String get providers_religion_catholic_providers_11 => 'Jueves Santo';
+
+  @override
+  String get providers_religion_catholic_providers_12 =>
+      'Nuestra Señora de Aparecida';
+
+  @override
+  String get providers_religion_catholic_providers_13 =>
       'Nuestra Señora de la Victoria';
+
+  @override
+  String get providers_religion_catholic_providers_14 => 'Pentecostés';
+
+  @override
+  String get providers_religion_catholic_providers_15 => 'Sagrado Corazón';
+
+  @override
+  String get providers_religion_catholic_providers_16 => 'Día de San José';
+
+  @override
+  String get providers_religion_catholic_providers_17 =>
+      'San Pedro y San Pablo';
+
+  @override
+  String get providers_religion_catholic_providers_18 => 'Santa Rosa de Lima';
+
+  @override
+  String get providers_religion_catholic_providers_19 => 'Virgen de Caacupé';
 
   @override
   String get providers_holiday_providers_0 => 'Brasil';
@@ -872,4 +961,7 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get providers_holiday_providers_16 => 'Católico';
+
+  @override
+  String get providers_holiday_providers_17 => 'Estados Unidos de América';
 }

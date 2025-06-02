@@ -81,6 +81,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get presentation_screens_tela_desenvolvimento_1 => '该程序正在由 ';
 
   @override
+  String get presentation_screens_tela_desenvolvimento_1_1 => '此应用程序由公司维护和分发 ';
+
+  @override
   String get presentation_screens_tela_desenvolvimento_2 =>
       ' 开发。如有批评、建议或联系，请发送电子邮件至 ';
 
@@ -680,37 +683,107 @@ class AppLocalizationsZh extends AppLocalizations {
   String get providers_country_uruguay_holiday_providers_12 => '狂欢节';
 
   @override
-  String get providers_religion_catholic_providers_0 => '圣周四';
+  String get providers_country_united_states_holiday_providers_0 => '元旦';
 
   @override
-  String get providers_religion_catholic_providers_1 => '耶稣受难日';
+  String get providers_country_united_states_holiday_providers_1 =>
+      '马丁·路德·金纪念日';
 
   @override
-  String get providers_religion_catholic_providers_2 => '复活节';
+  String get providers_country_united_states_holiday_providers_2 => '总统日';
 
   @override
-  String get providers_religion_catholic_providers_3 => '复活节星期一';
+  String get providers_country_united_states_holiday_providers_3 => '阵亡将士纪念日';
 
   @override
-  String get providers_religion_catholic_providers_4 => '耶稣升天节';
+  String get providers_country_united_states_holiday_providers_4 => '六月节国庆日';
 
   @override
-  String get providers_religion_catholic_providers_5 => '圣灵降临节';
+  String get providers_country_united_states_holiday_providers_5 => '独立日';
 
   @override
-  String get providers_religion_catholic_providers_6 => '圣体节';
+  String get providers_country_united_states_holiday_providers_6 => '劳动节';
 
   @override
-  String get providers_religion_catholic_providers_7 => '诸圣纪念日';
+  String get providers_country_united_states_holiday_providers_7 => '哥伦布日';
 
   @override
-  String get providers_religion_catholic_providers_8 => '显现圣母节';
+  String get providers_country_united_states_holiday_providers_8 => '退伍军人节';
 
   @override
-  String get providers_religion_catholic_providers_9 => '圣诞节';
+  String get providers_country_united_states_holiday_providers_9 => '感恩节';
 
   @override
-  String get providers_religion_catholic_providers_10 => '胜利圣母节';
+  String get providers_country_united_states_holiday_providers_10 => '圣诞节';
+
+  @override
+  String get providers_country_united_states_holiday_providers_11 => '杜鲁门日';
+
+  @override
+  String get providers_country_united_states_holiday_providers_12 => '原住民日';
+
+  @override
+  String get providers_country_united_states_holiday_providers_13 => '林肯诞辰日';
+
+  @override
+  String get providers_religion_catholic_providers_0 => '诸圣节';
+
+  @override
+  String get providers_religion_catholic_providers_1 => '诸魂节';
+
+  @override
+  String get providers_religion_catholic_providers_2 => '耶稣升天节';
+
+  @override
+  String get providers_religion_catholic_providers_3 => '圣母升天节';
+
+  @override
+  String get providers_religion_catholic_providers_4 => '圣诞节';
+
+  @override
+  String get providers_religion_catholic_providers_5 => '圣体节';
+
+  @override
+  String get providers_religion_catholic_providers_6 => '复活节星期一';
+
+  @override
+  String get providers_religion_catholic_providers_7 => '复活节星期日';
+
+  @override
+  String get providers_religion_catholic_providers_8 => '主显节';
+
+  @override
+  String get providers_religion_catholic_providers_9 => '耶稣受难日';
+
+  @override
+  String get providers_religion_catholic_providers_10 => '无染原罪节';
+
+  @override
+  String get providers_religion_catholic_providers_11 => '圣周四';
+
+  @override
+  String get providers_religion_catholic_providers_12 => '阿帕雷西达圣母节';
+
+  @override
+  String get providers_religion_catholic_providers_13 => '维多利亚圣母节';
+
+  @override
+  String get providers_religion_catholic_providers_14 => '圣灵降临节';
+
+  @override
+  String get providers_religion_catholic_providers_15 => '圣心节';
+
+  @override
+  String get providers_religion_catholic_providers_16 => '圣若瑟节';
+
+  @override
+  String get providers_religion_catholic_providers_17 => '圣彼得及圣保禄节';
+
+  @override
+  String get providers_religion_catholic_providers_18 => '利马的圣罗莎节';
+
+  @override
+  String get providers_religion_catholic_providers_19 => '卡库佩圣母节';
 
   @override
   String get providers_holiday_providers_0 => '巴西';
@@ -759,4 +832,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get providers_holiday_providers_16 => '天主教';
+
+  @override
+  String get providers_holiday_providers_17 => '美国';
 }

@@ -110,6 +110,11 @@
     "description": "Este programa está sendo desenvolvido por ",
     "type": "text"
   },
+  "presentation_screens_tela_desenvolvimento_1_1": ". Это приложение поддерживается и распространяется компанией ",
+  "@presentation_screens_tela_desenvolvimento_1_1": {
+    "description": "Este aplicativo está sendo mantido e distribuído pela empresa ",
+    "type": "text"
+  },
   "presentation_screens_tela_desenvolvimento_2": ". Для отзывов или контактов пишите на почту ",
   "@presentation_screens_tela_desenvolvimento_2": {
     "description": ". Para críticas, sugestões e contatos envie um email para ",
@@ -1173,59 +1178,104 @@
       "description": "Aniversário de Lincoln",
       "type": "text"
   },  
-  "providers_religion_catholic_providers_0": "Страстной четверг",
+  "providers_religion_catholic_providers_0": "День всех святых",
   "@providers_religion_catholic_providers_0": {
-    "description": "Quinta-feira Santa",
+    "description": "Dia de Todos os Santos",
     "type": "text"
   },
-  "providers_religion_catholic_providers_1": "Страстная пятница",
+  "providers_religion_catholic_providers_1": "День поминания усопших",
   "@providers_religion_catholic_providers_1": {
-    "description": "Sexta-feira Santa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_2": "Пасхальное воскресенье",
-  "@providers_religion_catholic_providers_2": {
-    "description": "Domingo de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_3": "Пасхальный понедельник",
-  "@providers_religion_catholic_providers_3": {
-    "description": "Segunda-feira de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_4": "Вознесение Господне",
-  "@providers_religion_catholic_providers_4": {
-    "description": "Ascensão do Senhor",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_5": "Пятидесятница",
-  "@providers_religion_catholic_providers_5": {
-    "description": "Pentecostes",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_6": "Тело Христово",
-  "@providers_religion_catholic_providers_6": {
-    "description": "Corpus Christi",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_7": "День всех усопших",
-  "@providers_religion_catholic_providers_7": {
     "description": "Dia de Finados",
     "type": "text"
   },
-  "providers_religion_catholic_providers_8": "Наша Сеньора Апаресида",
-  "@providers_religion_catholic_providers_8": {
-    "description": "Nossa Senhora Aparecida, Aparecida é nome proprio",
+  "providers_religion_catholic_providers_2": "День Вознесения",
+  "@providers_religion_catholic_providers_2": {
+    "description": "Ascensão",
     "type": "text"
   },
-  "providers_religion_catholic_providers_9": "Рождество",
-  "@providers_religion_catholic_providers_9": {
+  "providers_religion_catholic_providers_3": "Успение Богородицы",
+  "@providers_religion_catholic_providers_3": {
+    "description": "Assunção de Maria",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_4": "Рождество",
+  "@providers_religion_catholic_providers_4": {
     "description": "Natal",
     "type": "text"
   },
-  "providers_religion_catholic_providers_10": "Наша Сеньора Победы",
+  "providers_religion_catholic_providers_5": "Тело Христово",
+  "@providers_religion_catholic_providers_5": {
+    "description": "Corpus Christi",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_6": "Пасхальный понедельник",
+  "@providers_religion_catholic_providers_6": {
+    "description": "Segunda-feira de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_7": "Пасхальное воскресенье",
+  "@providers_religion_catholic_providers_7": {
+    "description": "Domingo de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_8": "Богоявление",
+  "@providers_religion_catholic_providers_8": {
+    "description": "Dia de Reis",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_9": "Страстная пятница",
+  "@providers_religion_catholic_providers_9": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_10": "Праздник непорочного зачатия",
   "@providers_religion_catholic_providers_10": {
-    "description": "Nossa Senhora da Vitória, Vitória é nome proprio",
+    "description": "Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_11": "Чистый четверг",
+  "@providers_religion_catholic_providers_11": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_12": "День Nossa Senhora Aparecida",
+  "@providers_religion_catholic_providers_12": {
+    "description": "Nossa Senhora Aparecida",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_13": "День Nossa Senhora da Vitória",
+  "@providers_religion_catholic_providers_13": {
+    "description": "Nossa Senhora da Vitória",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_14": "Пятидесятница",
+  "@providers_religion_catholic_providers_14": {
+    "description": "Pentecostes",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_15": "Праздник Святого Сердца",
+  "@providers_religion_catholic_providers_15": {
+    "description": "Sagrado Coração",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_16": "День Святого Иосифа",
+  "@providers_religion_catholic_providers_16": {
+    "description": "São José",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_17": "День Святого Петра и Павла",
+  "@providers_religion_catholic_providers_17": {
+    "description": "São Pedro e São Paulo",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_18": "День Санты-Розы-де-Лима",
+  "@providers_religion_catholic_providers_18": {
+    "description": "Santa Rosa de Lima",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_19": "День Девы Какаупе",
+  "@providers_religion_catholic_providers_19": {
+    "description": "Virgem de Caacupé",
     "type": "text"
   },
   "providers_holiday_providers_0": "Бразилия",
@@ -1306,6 +1356,11 @@
   "providers_holiday_providers_16": "Католический",
   "@providers_holiday_providers_16": {
     "description": "Católico",
+    "type": "text"
+  },
+  "providers_holiday_providers_17": "Соединенные Штаты Америки",
+  "@providers_holiday_providers_17": {
+    "description": "Estados Unidos da América",
     "type": "text"
   }
 }

@@ -110,6 +110,11 @@
     "description": "Este programa está sendo desenvolvido por ",
     "type": "text"
   },
+  "presentation_screens_tela_desenvolvimento_1_1": "此应用程序由公司维护和分发 ",
+  "@presentation_screens_tela_desenvolvimento_1_1": {
+    "description": "Este aplicativo está sendo mantido e distribuído pela empresa ",
+    "type": "text"
+  },
   "presentation_screens_tela_desenvolvimento_2": " 开发。如有批评、建议或联系，请发送电子邮件至 ",
   "@presentation_screens_tela_desenvolvimento_2": {
     "description": ". Para críticas, sugestões e contatos envie um email para ",
@@ -1178,54 +1183,104 @@
       "description": "Aniversário de Lincoln",
       "type": "text"
   },
-  "providers_religion_catholic_providers_1": "耶稣受难日",
+  "providers_religion_catholic_providers_0": "诸圣节",
+  "@providers_religion_catholic_providers_0": {
+    "description": "Dia de Todos os Santos",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_1": "诸魂节",
   "@providers_religion_catholic_providers_1": {
-    "description": "Sexta-feira Santa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_2": "复活节",
-  "@providers_religion_catholic_providers_2": {
-    "description": "Domingo de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_3": "复活节星期一",
-  "@providers_religion_catholic_providers_3": {
-    "description": "Segunda-feira de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_4": "耶稣升天节",
-  "@providers_religion_catholic_providers_4": {
-    "description": "Ascensão do Senhor",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_5": "圣灵降临节",
-  "@providers_religion_catholic_providers_5": {
-    "description": "Pentecostes",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_6": "圣体节",
-  "@providers_religion_catholic_providers_6": {
-    "description": "Corpus Christi",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_7": "诸圣纪念日",
-  "@providers_religion_catholic_providers_7": {
     "description": "Dia de Finados",
     "type": "text"
   },
-  "providers_religion_catholic_providers_8": "显现圣母节",
-  "@providers_religion_catholic_providers_8": {
-    "description": "Nossa Senhora Aparecida, Aparecida é nome proprio",
+  "providers_religion_catholic_providers_2": "耶稣升天节",
+  "@providers_religion_catholic_providers_2": {
+    "description": "Ascensão",
     "type": "text"
   },
-  "providers_religion_catholic_providers_9": "圣诞节",
-  "@providers_religion_catholic_providers_9": {
+  "providers_religion_catholic_providers_3": "圣母升天节",
+  "@providers_religion_catholic_providers_3": {
+    "description": "Assunção de Maria",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_4": "圣诞节",
+  "@providers_religion_catholic_providers_4": {
     "description": "Natal",
     "type": "text"
   },
-  "providers_religion_catholic_providers_10": "胜利圣母节",
+  "providers_religion_catholic_providers_5": "圣体节",
+  "@providers_religion_catholic_providers_5": {
+    "description": "Corpus Christi",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_6": "复活节星期一",
+  "@providers_religion_catholic_providers_6": {
+    "description": "Segunda-feira de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_7": "复活节星期日",
+  "@providers_religion_catholic_providers_7": {
+    "description": "Domingo de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_8": "主显节",
+  "@providers_religion_catholic_providers_8": {
+    "description": "Dia de Reis",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_9": "耶稣受难日",
+  "@providers_religion_catholic_providers_9": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_10": "无染原罪节",
   "@providers_religion_catholic_providers_10": {
-    "description": "Nossa Senhora da Vitória, Vitória é nome proprio",
+    "description": "Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_11": "圣周四",
+  "@providers_religion_catholic_providers_11": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_12": "阿帕雷西达圣母节",
+  "@providers_religion_catholic_providers_12": {
+    "description": "Nossa Senhora Aparecida",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_13": "维多利亚圣母节",
+  "@providers_religion_catholic_providers_13": {
+    "description": "Nossa Senhora da Vitória",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_14": "圣灵降临节",
+  "@providers_religion_catholic_providers_14": {
+    "description": "Pentecostes",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_15": "圣心节",
+  "@providers_religion_catholic_providers_15": {
+    "description": "Sagrado Coração",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_16": "圣若瑟节",
+  "@providers_religion_catholic_providers_16": {
+    "description": "São José",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_17": "圣彼得及圣保禄节",
+  "@providers_religion_catholic_providers_17": {
+    "description": "São Pedro e São Paulo",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_18": "利马的圣罗莎节",
+  "@providers_religion_catholic_providers_18": {
+    "description": "Santa Rosa de Lima",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_19": "卡库佩圣母节",
+  "@providers_religion_catholic_providers_19": {
+    "description": "Virgem de Caacupé",
     "type": "text"
   },
   "providers_holiday_providers_0": "巴西",
@@ -1306,6 +1361,11 @@
   "providers_holiday_providers_16": "天主教",
   "@providers_holiday_providers_16": {
     "description": "Católico",
+    "type": "text"
+  },
+  "providers_holiday_providers_17": "美国",
+  "@providers_holiday_providers_17": {
+    "description": "Estados Unidos da América",
     "type": "text"
   }
 }

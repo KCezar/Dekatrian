@@ -110,6 +110,11 @@
     "description": "Este programa está sendo desenvolvido por ",
     "type": "text"
   },
+  "presentation_screens_tela_desenvolvimento_1_1": ". Esta aplicación está siendo mantenida y distribuida por la empresa ",
+  "@presentation_screens_tela_desenvolvimento_1_1": {
+    "description": "Este aplicativo está sendo mantido e distribuído pela empresa ",
+    "type": "text"
+  },
   "presentation_screens_tela_desenvolvimento_2": ". Para críticas, sugerencias y contactos envía un email a ",
   "@presentation_screens_tela_desenvolvimento_2": {
     "description": ". Para críticas, sugestões e contatos envie um email para ",
@@ -1173,59 +1178,104 @@
       "description": "Aniversário de Lincoln",
       "type": "text"
   },
-  "providers_religion_catholic_providers_0": "Jueves Santo",
+  "providers_religion_catholic_providers_0": "Día de Todos los Santos",
   "@providers_religion_catholic_providers_0": {
-    "description": "Quinta-feira Santa",
+    "description": "Dia de Todos os Santos",
     "type": "text"
   },
-  "providers_religion_catholic_providers_1": "Viernes Santo",
+  "providers_religion_catholic_providers_1": "Día de los Fieles Difuntos",
   "@providers_religion_catholic_providers_1": {
-    "description": "Sexta-feira Santa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_2": "Domingo de Pascua",
-  "@providers_religion_catholic_providers_2": {
-    "description": "Domingo de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_3": "Lunes de Pascua",
-  "@providers_religion_catholic_providers_3": {
-    "description": "Segunda-feira de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_4": "Ascensión del Señor",
-  "@providers_religion_catholic_providers_4": {
-    "description": "Ascensão do Senhor",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_5": "Pentecostés",
-  "@providers_religion_catholic_providers_5": {
-    "description": "Pentecostes",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_6": "Corpus Christi",
-  "@providers_religion_catholic_providers_6": {
-    "description": "Corpus Christi",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_7": "Día de los Fieles Difuntos",
-  "@providers_religion_catholic_providers_7": {
     "description": "Dia de Finados",
     "type": "text"
   },
-  "providers_religion_catholic_providers_8": "Nuestra Señora Aparecida",
-  "@providers_religion_catholic_providers_8": {
-    "description": "Nossa Senhora Aparecida, Aparecida é nome proprio",
+  "providers_religion_catholic_providers_2": "Día de la Ascensión",
+  "@providers_religion_catholic_providers_2": {
+    "description": "Ascensão",
     "type": "text"
   },
-  "providers_religion_catholic_providers_9": "Navidad",
-  "@providers_religion_catholic_providers_9": {
+  "providers_religion_catholic_providers_3": "Día de la Asunción",
+  "@providers_religion_catholic_providers_3": {
+    "description": "Assunção de Maria",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_4": "Navidad",
+  "@providers_religion_catholic_providers_4": {
     "description": "Natal",
     "type": "text"
   },
-  "providers_religion_catholic_providers_10": "Nuestra Señora de la Victoria",
+  "providers_religion_catholic_providers_5": "Corpus Christi",
+  "@providers_religion_catholic_providers_5": {
+    "description": "Corpus Christi",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_6": "Lunes de Pascua",
+  "@providers_religion_catholic_providers_6": {
+    "description": "Segunda-feira de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_7": "Domingo de Pascua",
+  "@providers_religion_catholic_providers_7": {
+    "description": "Domingo de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_8": "Epifanía",
+  "@providers_religion_catholic_providers_8": {
+    "description": "Dia de Reis",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_9": "Viernes Santo",
+  "@providers_religion_catholic_providers_9": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_10": "Día de la Inmaculada Concepción",
   "@providers_religion_catholic_providers_10": {
-    "description": "Nossa Senhora da Vitória, Vitória é nome proprio",
+    "description": "Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_11": "Jueves Santo",
+  "@providers_religion_catholic_providers_11": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_12": "Nuestra Señora de Aparecida",
+  "@providers_religion_catholic_providers_12": {
+    "description": "Nossa Senhora Aparecida",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_13": "Nuestra Señora de la Victoria",
+  "@providers_religion_catholic_providers_13": {
+    "description": "Nossa Senhora da Vitória",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_14": "Pentecostés",
+  "@providers_religion_catholic_providers_14": {
+    "description": "Pentecostes",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_15": "Sagrado Corazón",
+  "@providers_religion_catholic_providers_15": {
+    "description": "Sagrado Coração",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_16": "Día de San José",
+  "@providers_religion_catholic_providers_16": {
+    "description": "São José",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_17": "San Pedro y San Pablo",
+  "@providers_religion_catholic_providers_17": {
+    "description": "São Pedro e São Paulo",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_18": "Santa Rosa de Lima",
+  "@providers_religion_catholic_providers_18": {
+    "description": "Santa Rosa de Lima",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_19": "Virgen de Caacupé",
+  "@providers_religion_catholic_providers_19": {
+    "description": "Virgem de Caacupé",
     "type": "text"
   },
   "providers_holiday_providers_0": "Brasil",
@@ -1306,6 +1356,11 @@
   "providers_holiday_providers_16": "Católico",
   "@providers_holiday_providers_16": {
     "description": "Católico",
+    "type": "text"
+  },
+  "providers_holiday_providers_17": "Estados Unidos de América",
+  "@providers_holiday_providers_17": {
+    "description": "Estados Unidos da América",
     "type": "text"
   }
 }

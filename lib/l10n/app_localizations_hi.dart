@@ -83,6 +83,10 @@ class AppLocalizationsHi extends AppLocalizations {
       'यह ऐप विकसित किया जा रहा है ';
 
   @override
+  String get presentation_screens_tela_desenvolvimento_1_1 =>
+      '. यह एप्लिकेशन कंपनी द्वारा बनाए रखा गया है और वितरित किया जा रहा है ';
+
+  @override
   String get presentation_screens_tela_desenvolvimento_2 =>
       '। प्रतिक्रिया, सुझाव या संपर्क के लिए ईमेल भेजें ';
 
@@ -741,39 +745,123 @@ class AppLocalizationsHi extends AppLocalizations {
   String get providers_country_uruguay_holiday_providers_12 => 'कार्निवल';
 
   @override
-  String get providers_religion_catholic_providers_0 => 'महागुरुवार';
+  String get providers_country_united_states_holiday_providers_0 =>
+      'नववर्ष दिवस';
 
   @override
-  String get providers_religion_catholic_providers_1 => 'गुड फ्राइडे';
+  String get providers_country_united_states_holiday_providers_1 =>
+      'मार्टिन लूथर किंग जूनियर दिवस';
 
   @override
-  String get providers_religion_catholic_providers_2 => 'ईस्टर संडे';
+  String get providers_country_united_states_holiday_providers_2 =>
+      'राष्ट्रपतियों का दिवस';
 
   @override
-  String get providers_religion_catholic_providers_3 => 'ईस्टर सोमवार';
+  String get providers_country_united_states_holiday_providers_3 =>
+      'स्मृति दिवस';
 
   @override
-  String get providers_religion_catholic_providers_4 => 'प्रभु आरोहण उत्सव';
+  String get providers_country_united_states_holiday_providers_4 =>
+      'जून्टीन्थ राष्ट्रीय स्वाधीनता दिवस';
 
   @override
-  String get providers_religion_catholic_providers_5 => 'पेंटेकोस्ट';
+  String get providers_country_united_states_holiday_providers_5 =>
+      'स्वाधीनता दिवस';
 
   @override
-  String get providers_religion_catholic_providers_6 => 'कोर्पस क्रिस्टी';
+  String get providers_country_united_states_holiday_providers_6 => 'श्रम दिवस';
 
   @override
-  String get providers_religion_catholic_providers_7 => 'सभी आत्माओं का दिन';
+  String get providers_country_united_states_holiday_providers_7 =>
+      'कोलम्बस दिवस';
 
   @override
-  String get providers_religion_catholic_providers_8 =>
-      'नोसा सेन्योरा अपारेसीदा';
+  String get providers_country_united_states_holiday_providers_8 =>
+      'पूर्व सैनिक दिवस';
 
   @override
-  String get providers_religion_catholic_providers_9 => 'क्रिसमस';
+  String get providers_country_united_states_holiday_providers_9 =>
+      'थैंक्सगिविंग डे';
+
+  @override
+  String get providers_country_united_states_holiday_providers_10 =>
+      'क्रिसमस दिवस';
+
+  @override
+  String get providers_country_united_states_holiday_providers_11 =>
+      'ट्रूमन दिवस';
+
+  @override
+  String get providers_country_united_states_holiday_providers_12 =>
+      'आदिवासी दिवस';
+
+  @override
+  String get providers_country_united_states_holiday_providers_13 =>
+      'लिंकेन की जयंती';
+
+  @override
+  String get providers_religion_catholic_providers_0 => 'सभी संतों का दिन';
+
+  @override
+  String get providers_religion_catholic_providers_1 => 'सभी आत्माओं का दिन';
+
+  @override
+  String get providers_religion_catholic_providers_2 => 'उदयादिन';
+
+  @override
+  String get providers_religion_catholic_providers_3 => 'स्वर्गारोहण दिवस';
+
+  @override
+  String get providers_religion_catholic_providers_4 => 'क्रिसमस दिवस';
+
+  @override
+  String get providers_religion_catholic_providers_5 => 'कॉर्पस क्रिस्टी';
+
+  @override
+  String get providers_religion_catholic_providers_6 => 'ईस्टर सोमवार';
+
+  @override
+  String get providers_religion_catholic_providers_7 => 'ईस्टर रविवार';
+
+  @override
+  String get providers_religion_catholic_providers_8 => 'प्रकाशोत्सव';
+
+  @override
+  String get providers_religion_catholic_providers_9 => 'गुड फ्राइडे';
 
   @override
   String get providers_religion_catholic_providers_10 =>
-      'नोसा सेन्योरा दा विक्टोरिया';
+      'निर्दोष गर्भधारण दिवस';
+
+  @override
+  String get providers_religion_catholic_providers_11 => 'मौंडी गुरुवार';
+
+  @override
+  String get providers_religion_catholic_providers_12 =>
+      'एपरेसिडा की मातृ देवी';
+
+  @override
+  String get providers_religion_catholic_providers_13 =>
+      'विटोरिया की मातृ देवी';
+
+  @override
+  String get providers_religion_catholic_providers_14 => 'पेंटेकोस्ट';
+
+  @override
+  String get providers_religion_catholic_providers_15 => 'पवित्र हृदय';
+
+  @override
+  String get providers_religion_catholic_providers_16 => 'संत जोसेफ का दिन';
+
+  @override
+  String get providers_religion_catholic_providers_17 =>
+      'संत पेत्रुस और संत पौलुस';
+
+  @override
+  String get providers_religion_catholic_providers_18 => 'सांता रोजा डी लीमा';
+
+  @override
+  String get providers_religion_catholic_providers_19 => 'काकूपे की कन्या';
 
   @override
   String get providers_holiday_providers_0 => 'ब्राज़ील';
@@ -822,4 +910,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get providers_holiday_providers_16 => 'कैथोलिक';
+
+  @override
+  String get providers_holiday_providers_17 => 'संयुक्त राज्य अमेरिका';
 }

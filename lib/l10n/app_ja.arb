@@ -110,6 +110,11 @@
     "description": "Este programa está sendo desenvolvido por ",
     "type": "text"
   },
+  "presentation_screens_tela_desenvolvimento_1_1": ". このアプリケーションは企業によって保守および配布されています ",
+  "@presentation_screens_tela_desenvolvimento_1_1": {
+    "description": "Este aplicativo está sendo mantido e distribuído pela empresa ",
+    "type": "text"
+  },
   "presentation_screens_tela_desenvolvimento_2": "。フィードバックやお問い合わせは以下へメールしてください：",
   "@presentation_screens_tela_desenvolvimento_2": {
     "description": ". Para críticas, sugestões e contatos envie um email para ",
@@ -1173,59 +1178,104 @@
       "description": "Aniversário de Lincoln",
       "type": "text"
   },
-  "providers_religion_catholic_providers_0": "聖木曜日",
+  "providers_religion_catholic_providers_0": "万聖節",
   "@providers_religion_catholic_providers_0": {
-    "description": "Quinta-feira Santa",
+    "description": "Dia de Todos os Santos",
     "type": "text"
   },
-  "providers_religion_catholic_providers_1": "聖金曜日",
+  "providers_religion_catholic_providers_1": "諸魂の祭日",
   "@providers_religion_catholic_providers_1": {
-    "description": "Sexta-feira Santa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_2": "復活祭の日",
-  "@providers_religion_catholic_providers_2": {
-    "description": "Domingo de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_3": "復活祭の翌日",
-  "@providers_religion_catholic_providers_3": {
-    "description": "Segunda-feira de Páscoa",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_4": "主の昇天祭",
-  "@providers_religion_catholic_providers_4": {
-    "description": "Ascensão do Senhor",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_5": "聖霊降臨祭",
-  "@providers_religion_catholic_providers_5": {
-    "description": "Pentecostes",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_6": "コーパス・クリスティ",
-  "@providers_religion_catholic_providers_6": {
-    "description": "Corpus Christi",
-    "type": "text"
-  },
-  "providers_religion_catholic_providers_7": "万霊節",
-  "@providers_religion_catholic_providers_7": {
     "description": "Dia de Finados",
     "type": "text"
   },
-  "providers_religion_catholic_providers_8": "ノッサセニョーラアパレシーダ",
-  "@providers_religion_catholic_providers_8": {
-    "description": "Nossa Senhora Aparecida, Aparecida é nome proprio",
+  "providers_religion_catholic_providers_2": "昇天の祭日",
+  "@providers_religion_catholic_providers_2": {
+    "description": "Ascensão",
     "type": "text"
   },
-  "providers_religion_catholic_providers_9": "クリスマス",
-  "@providers_religion_catholic_providers_9": {
+  "providers_religion_catholic_providers_3": "聖母被昇天祭",
+  "@providers_religion_catholic_providers_3": {
+    "description": "Assunção de Maria",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_4": "クリスマス",
+  "@providers_religion_catholic_providers_4": {
     "description": "Natal",
     "type": "text"
   },
-  "providers_religion_catholic_providers_10": "ノッサセニョーラダビクトリア",
+  "providers_religion_catholic_providers_5": "コーパスクリスティ",
+  "@providers_religion_catholic_providers_5": {
+    "description": "Corpus Christi",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_6": "イースター月曜日",
+  "@providers_religion_catholic_providers_6": {
+    "description": "Segunda-feira de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_7": "復活祭の日曜日",
+  "@providers_religion_catholic_providers_7": {
+    "description": "Domingo de Páscoa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_8": "主顕祭",
+  "@providers_religion_catholic_providers_8": {
+    "description": "Dia de Reis",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_9": "聖金曜日",
+  "@providers_religion_catholic_providers_9": {
+    "description": "Sexta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_10": "無原罪の御宿りの祭日",
   "@providers_religion_catholic_providers_10": {
-    "description": "Nossa Senhora da Vitória, Vitória é nome proprio",
+    "description": "Imaculada Conceição",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_11": "聖木曜日",
+  "@providers_religion_catholic_providers_11": {
+    "description": "Quinta-feira Santa",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_12": "アパレシーダの聖母",
+  "@providers_religion_catholic_providers_12": {
+    "description": "Nossa Senhora Aparecida",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_13": "ビトリアの聖母",
+  "@providers_religion_catholic_providers_13": {
+    "description": "Nossa Senhora da Vitória",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_14": "聖霊降臨祭",
+  "@providers_religion_catholic_providers_14": {
+    "description": "Pentecostes",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_15": "聖心祭",
+  "@providers_religion_catholic_providers_15": {
+    "description": "Sagrado Coração",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_16": "聖ヨセフの日",
+  "@providers_religion_catholic_providers_16": {
+    "description": "São José",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_17": "聖ペトロ・聖パウロ祭",
+  "@providers_religion_catholic_providers_17": {
+    "description": "São Pedro e São Paulo",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_18": "リマの聖ローザの日",
+  "@providers_religion_catholic_providers_18": {
+    "description": "Santa Rosa de Lima",
+    "type": "text"
+  },
+  "providers_religion_catholic_providers_19": "カアクペの聖母祝日",
+  "@providers_religion_catholic_providers_19": {
+    "description": "Virgem de Caacupé",
     "type": "text"
   },
   "providers_holiday_providers_0": "ブラジル",
@@ -1306,6 +1356,11 @@
   "providers_holiday_providers_16": "カトリック",
   "@providers_holiday_providers_16": {
     "description": "Católico",
+    "type": "text"
+  },
+  "providers_holiday_providers_17": "アメリカ合衆国",
+  "@providers_holiday_providers_17": {
+    "description": "Estados Unidos da América",
     "type": "text"
   }
 }

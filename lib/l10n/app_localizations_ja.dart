@@ -82,6 +82,10 @@ class AppLocalizationsJa extends AppLocalizations {
       'このアプリは次によって開発されています：';
 
   @override
+  String get presentation_screens_tela_desenvolvimento_1_1 =>
+      '. このアプリケーションは企業によって保守および配布されています ';
+
+  @override
   String get presentation_screens_tela_desenvolvimento_2 =>
       '。フィードバックやお問い合わせは以下へメールしてください：';
 
@@ -683,37 +687,109 @@ class AppLocalizationsJa extends AppLocalizations {
   String get providers_country_uruguay_holiday_providers_12 => 'カーニバル';
 
   @override
-  String get providers_religion_catholic_providers_0 => '聖木曜日';
+  String get providers_country_united_states_holiday_providers_0 => '元日';
 
   @override
-  String get providers_religion_catholic_providers_1 => '聖金曜日';
+  String get providers_country_united_states_holiday_providers_1 =>
+      'マーティン・ルーサー・キング・ジュニア・デー';
 
   @override
-  String get providers_religion_catholic_providers_2 => '復活祭の日';
+  String get providers_country_united_states_holiday_providers_2 => 'プレジデンツ・デー';
 
   @override
-  String get providers_religion_catholic_providers_3 => '復活祭の翌日';
+  String get providers_country_united_states_holiday_providers_3 => 'メモリアルデー';
 
   @override
-  String get providers_religion_catholic_providers_4 => '主の昇天祭';
+  String get providers_country_united_states_holiday_providers_4 =>
+      'ジューンティーンス国民独立記念日';
 
   @override
-  String get providers_religion_catholic_providers_5 => '聖霊降臨祭';
+  String get providers_country_united_states_holiday_providers_5 => '独立記念日';
 
   @override
-  String get providers_religion_catholic_providers_6 => 'コーパス・クリスティ';
+  String get providers_country_united_states_holiday_providers_6 => 'レイバー・デー';
 
   @override
-  String get providers_religion_catholic_providers_7 => '万霊節';
+  String get providers_country_united_states_holiday_providers_7 => 'コロンブスデー';
 
   @override
-  String get providers_religion_catholic_providers_8 => 'ノッサセニョーラアパレシーダ';
+  String get providers_country_united_states_holiday_providers_8 => 'ベテランズデー';
 
   @override
-  String get providers_religion_catholic_providers_9 => 'クリスマス';
+  String get providers_country_united_states_holiday_providers_9 => '感謝祭';
 
   @override
-  String get providers_religion_catholic_providers_10 => 'ノッサセニョーラダビクトリア';
+  String get providers_country_united_states_holiday_providers_10 => 'クリスマス';
+
+  @override
+  String get providers_country_united_states_holiday_providers_11 => 'トルーマンデー';
+
+  @override
+  String get providers_country_united_states_holiday_providers_12 => '先住民の日';
+
+  @override
+  String get providers_country_united_states_holiday_providers_13 =>
+      'リンカーンの誕生日';
+
+  @override
+  String get providers_religion_catholic_providers_0 => '万聖節';
+
+  @override
+  String get providers_religion_catholic_providers_1 => '諸魂の祭日';
+
+  @override
+  String get providers_religion_catholic_providers_2 => '昇天の祭日';
+
+  @override
+  String get providers_religion_catholic_providers_3 => '聖母被昇天祭';
+
+  @override
+  String get providers_religion_catholic_providers_4 => 'クリスマス';
+
+  @override
+  String get providers_religion_catholic_providers_5 => 'コーパスクリスティ';
+
+  @override
+  String get providers_religion_catholic_providers_6 => 'イースター月曜日';
+
+  @override
+  String get providers_religion_catholic_providers_7 => '復活祭の日曜日';
+
+  @override
+  String get providers_religion_catholic_providers_8 => '主顕祭';
+
+  @override
+  String get providers_religion_catholic_providers_9 => '聖金曜日';
+
+  @override
+  String get providers_religion_catholic_providers_10 => '無原罪の御宿りの祭日';
+
+  @override
+  String get providers_religion_catholic_providers_11 => '聖木曜日';
+
+  @override
+  String get providers_religion_catholic_providers_12 => 'アパレシーダの聖母';
+
+  @override
+  String get providers_religion_catholic_providers_13 => 'ビトリアの聖母';
+
+  @override
+  String get providers_religion_catholic_providers_14 => '聖霊降臨祭';
+
+  @override
+  String get providers_religion_catholic_providers_15 => '聖心祭';
+
+  @override
+  String get providers_religion_catholic_providers_16 => '聖ヨセフの日';
+
+  @override
+  String get providers_religion_catholic_providers_17 => '聖ペトロ・聖パウロ祭';
+
+  @override
+  String get providers_religion_catholic_providers_18 => 'リマの聖ローザの日';
+
+  @override
+  String get providers_religion_catholic_providers_19 => 'カアクペの聖母祝日';
 
   @override
   String get providers_holiday_providers_0 => 'ブラジル';
@@ -762,4 +838,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get providers_holiday_providers_16 => 'カトリック';
+
+  @override
+  String get providers_holiday_providers_17 => 'アメリカ合衆国';
 }

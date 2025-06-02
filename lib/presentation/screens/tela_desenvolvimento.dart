@@ -65,13 +65,23 @@ class TelaDesenvolvimento extends ConsumerWidget {
                       ),
                       TextSpan(
                           text:
-                              AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_2),
+                              AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_1_1),
                       TextSpan(
-                        text: 'kefren.cezar.c@gmail.com',
+                        text: 'Pindí, Artes & Sistemas',
                         style: _linkStyle,
                         recognizer: TapGestureRecognizer()
                           ..onTap = () => _launchUrl(
-                              'mailto:kefren.cezar.c@gmail.com'),
+                              'https://www.pindi.io'),
+                      ),
+                      TextSpan(
+                          text:
+                              AppLocalizations.of(context)!.presentation_screens_tela_desenvolvimento_2),
+                      TextSpan(
+                        text: 'kefren.cezar@pindi.io',
+                        style: _linkStyle,
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () => _launchUrl(
+                              'mailto:kefren.cezar@pindi.io'),
                       ),
                       const TextSpan(text: '.\n\n'),
                     ],
